@@ -68,16 +68,6 @@ About site
 
 ### Lighthouse scores
 
-![Lighthouse score home](assets/readme-img/lh-home.png "Lighthouse score home image")
-
-![Lighthouse score walk](assets/readme-img/lh-walk.png "Lighthouse score walk image")
-
-![Lighthouse score pack](assets/readme-img/lh-pack.png "Lighthouse score pack image")
-
-![Lighthouse score sign up](assets/readme-img/lh-signup.png "Lighthouse score sign up image")
-
-![Lighthouse score thank you](assets/readme-img/lh-thankyou.png "Lighthouse score thank you image")
-
 ### Mobile and iPad Testing Comments
 
 | **TEST**                      | **ACTION**                            | **EXPECTATION**               | **RESULT**                            | **FIX**                                |
