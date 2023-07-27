@@ -1,0 +1,15 @@
+@import url(https: //fonts.googleapis.com/css2?family=Barlow:wght@200;400&family=Tektur:wght@400;500&display=swap);
+
+* {
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tektur, sans-serif;
+    font-weight: 400;
+    color: #e7014c;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
