@@ -14,3 +14,12 @@ body {
     overflow-x: hidden;
 }
 
+/* Homepage */
+
+#logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
