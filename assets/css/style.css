@@ -19,6 +19,11 @@ header a {
     text-decoration: none;
 }
 
+nav a {
+    text-decoration: none;
+    color: #e7014c;
+}
+
 /* Navigation */
 
 #logo {
@@ -104,4 +109,24 @@ header a {
 li::before {
     content: "•";
     position: absolute;
+}
+
+#homepage-buttons-play {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.how-to-play {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.play-game {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-top: 20px;
 }
