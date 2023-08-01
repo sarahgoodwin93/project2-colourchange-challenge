@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Homepage */
+/* Navigation */
 
 #logo {
     display: flex;
@@ -22,22 +22,26 @@ body {
     text-align: center;
     padding-bottom: 30px;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 #homepage-buttons {
     display: flex;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
 }
 
 #how-to-play {
     display: flex;
     justify-content: center;
     width: 50%;
+    text-decoration: none;
 }
 
 #play-game {
     display: flex;
     justify-content: center;
     width: 50%;
+    text-decoration: none;
 }
