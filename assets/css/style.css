@@ -112,7 +112,7 @@ nav a {
 }
 
 li::before {
-    content: "•";
+    content: "";
     position: absolute;
 }
 
