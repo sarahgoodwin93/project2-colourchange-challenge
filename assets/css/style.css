@@ -152,7 +152,13 @@ li::before {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-top: 10px;
     padding-bottom: 30px;
     color: #e7014c;
     flex-direction: column;
+}
+
+#reset {
+    border: #e7014c;
+    border-style: double;
 }
