@@ -128,3 +128,17 @@ li::before {
     width: 50%;
     padding-top: 20px;
 }
+
+/* Play Game */
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #e7014c;
+    padding: 10x 10px 10px 10px;
+    text-align: center;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+}
