@@ -4,7 +4,7 @@
     margin: 0;
     border: none;
     box-sizing: border-box;
-    background: url('../images/Gradient\ Background.png');
+    background-color: #ffd5e2;
 }
 
 body {
@@ -25,9 +25,15 @@ header a {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 30px;
-    margin-top: 10px;
+    padding-bottom: 512px;
+    margin-top: 30px;
     color: #e7014c;
+}
+
+#logo {
+    background: url(../images/does-it-match-logo.png) no-repeat center center;
+    height: 100%;
+    width: 100%;
 }
 
 #homepage-buttons {
@@ -40,12 +46,14 @@ header a {
     display: flex;
     justify-content: center;
     width: 50%;
+    padding-top: 90px;
 }
 
 #play-game {
     display: flex;
     justify-content: center;
     width: 50%;
+    padding-top: 90px;
 }
 
 #homepage-buttons a {
@@ -57,6 +65,7 @@ header a {
 
 #home-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     padding-top: 50px;
