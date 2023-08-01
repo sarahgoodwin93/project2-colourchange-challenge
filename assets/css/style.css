@@ -87,11 +87,21 @@ header a {
 #instructions {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
     padding-top: 60px;
     padding-left: 10px;
     color: #e7014c;
 }
 
 #how-to-play-list {
-    justify-content: left;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    margin: 10px 0;
+}
+
+li::before {
+    content: "•";
+    position: absolute;
 }
