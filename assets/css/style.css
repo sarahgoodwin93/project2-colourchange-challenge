@@ -36,6 +36,15 @@ header a {
     width: 100%;
 }
 
+#go-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    color: #e7014c;
+}
+
 #homepage-buttons {
     display: flex;
     justify-content: center;
@@ -71,4 +80,18 @@ header a {
     padding-top: 50px;
     margin-top: 10px;
     color: #e7014c;
+}
+
+/* How to Play Page */
+
+#instructions {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 10px;
+    color: #e7014c;
+}
+
+#how-to-play-list {
+    justify-content: left;
 }
