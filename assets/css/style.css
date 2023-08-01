@@ -137,8 +137,10 @@ li::before {
     border-radius: 30px;
     background-color: #e7014c;
     padding: 10x 10px 10px 10px;
-    text-align: center;
-    clear: both;
+}
+
+#game-table {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
