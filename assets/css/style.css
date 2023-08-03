@@ -243,10 +243,3 @@ li::before {
     }
 }
 
-/* GRID PAGE */
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
-    gap: 10px;
-}
