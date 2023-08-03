@@ -1,13 +1,14 @@
 // Variables
 
 let levelOne = 1;
-let timeLimit = 10;
+let timeLimit = 30;
 let intervalId;
 let changedBox;
 
 // Colour to use in grid
 
-let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6", "#ffabab"];
+let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6",
+    "#ffabab", "#ff9cee", "#ffcf9", "#b28dff", "#c4faf8", "#fff5ba", "#ffbebc"];
 
 // Change one div to random color
 
@@ -15,13 +16,13 @@ function changeBackground(boxId) {
     if (boxId === changedBox) {
         clearInterval(intervalId);
         levelOne++;
-        timeLimit = 10 - (levelOne - 1) * 2;
+        timeLimit = 30 - (levelOne - 1) * 2;
         startGame();
     } else {
         clearInterval(intervalId);
         alert('Sorry Wrong Box, Try again!');
         levelOne = 1;
-        timeLimit = 10;
+        timeLimit = 30;
         startGame();
     }
 }
@@ -48,9 +49,9 @@ function startGame() {
         clearInterval(intervalId);
         alert('Times Up! Reset to begin the game again');
         levelOne = 1;
-        timeLimit = 10;
+        timeLimit = 30;
         startGame();
-    }, timeLimit * 1000);
+    }, timeLimit * 3000);
 }
 
 // Start Game Click
