@@ -15,9 +15,15 @@ function changeBackground(boxId) {
     if (boxId === changedBox) {
         clearInterval(intervalId);
         alert('!');
+        levelOne++;
+        timeLimit = 10 - (levelOne - 1) * 2;
+        startGame();
     } else {
         clearInterval(intervalId);
         alert('!');
+        levelOne = 1;
+        timeLimit = 10;
+        startGame();
     }
 }
 
@@ -31,6 +37,7 @@ function randomColor() {
 // Start Game button
 
 function startGame() {
+    changedBox = null;
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
         allBoxes[i].style.backgroundColor = "#e7014c";
@@ -41,7 +48,7 @@ function startGame() {
     intervalId = setInterval(() => {
         clearInterval(intervalId);
         alert('!');
-        currentLevel = 1;
+        levelOne = 1;
         timeLimit = 10;
         startGame();
     }, timeLimit * 1000);

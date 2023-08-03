@@ -198,6 +198,11 @@ li::before {
     color: #e7014c;
 }
 
+.button:hover {
+    background-color: #ff9e1d;
+    color: white;
+}
+
 /* Footer */
 
 .social {
@@ -242,4 +247,3 @@ li::before {
         height: auto;
     }
 }
-
