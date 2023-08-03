@@ -1,3 +1,10 @@
+// Variables
+
+let levelOne = 1;
+let timeLimit = 10;
+let intervalId;
+let changedBox;
+
 // Colour to use in grid
 
 let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6", "#ffabab"];
@@ -21,12 +28,37 @@ function randomColor() {
     return colors[randomColors];
 }
 
+// Start Game button
+
+function startGame() {
+    let allBoxes = document.getElementsByClassName("box");
+    for (let i = 0; i < allBoxes.length; i++) {
+        allBoxes[i].style.backgroundColor = "#e7014c";
+    }
+    let randomBox = Math.floor(Math.random() * allBoxes.length);
+    changedBox = allBoxes[randomBox].id;
+    document.getElementById('changedBox').style.backgroundColor = randomColor();
+    intervalId = setInterval(() => {
+        clearInterval(intervalId);
+        alert('!');
+        currentLevel = 1;
+        timeLimit = 10;
+        startGame();
+    }, timeLimit * 1000);
+}
+
+// Start Game Click
+
+document.getElementById("start-game").addEventListener("click", () => {
+    startGame();
+});
+
 // Make user click on correct div, and win
 
 
 // Reset Game
 
 
-// Start Game
+
 
 
