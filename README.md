@@ -20,6 +20,8 @@ About site
 
 ## Design
 
+<https://visme.co/blog/pastel-colors/>
+
 ### Colour Scheme
 
 ### Wire frames

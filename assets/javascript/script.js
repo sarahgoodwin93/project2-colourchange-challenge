@@ -16,8 +16,8 @@ function changeBackground(divId) {
     }
 }
 
-// Generate random colour of grid to change
+// Generate grid for levels 2 & up
 
-function generateRandomColor() {
-    let;
+function generateGrid() {
+    let grid = document.getElementById("grid");
 }
