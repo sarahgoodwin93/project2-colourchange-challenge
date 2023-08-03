@@ -14,13 +14,12 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6", "#ffabab"];
 function changeBackground(boxId) {
     if (boxId === changedBox) {
         clearInterval(intervalId);
-        alert('!');
         levelOne++;
         timeLimit = 10 - (levelOne - 1) * 2;
         startGame();
     } else {
         clearInterval(intervalId);
-        alert('!');
+        alert('Sorry Wrong Box, Try again!');
         levelOne = 1;
         timeLimit = 10;
         startGame();
@@ -47,7 +46,7 @@ function startGame() {
     document.getElementById(changedBox).style.backgroundColor = randomColor();
     intervalId = setInterval(() => {
         clearInterval(intervalId);
-        alert('!');
+        alert('Times Up! Reset to begin the game again');
         levelOne = 1;
         timeLimit = 10;
         startGame();
