@@ -11,8 +11,15 @@ body {
     font-family: 'Tektur', sans-serif;
     font-weight: 400;
     color: #e7014c;
+    min-height: 100vh;
     max-width: 100vw;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
 }
 
 header a {
@@ -161,4 +168,39 @@ li::before {
 #reset {
     border: #e7014c;
     border-style: double;
+}
+
+/* Footer */
+
+.social {
+    width: 100%;
+    height: 20%;
+    padding: 5px;
+    text-align: center;
+    bottom: 0;
+}
+
+#copyright {
+    list-style: none;
+}
+
+#github {
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#linkedin {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+#footer-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon {
+    color: #ff9e1d;
 }
