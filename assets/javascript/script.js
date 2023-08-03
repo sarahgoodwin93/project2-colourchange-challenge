@@ -4,6 +4,7 @@ let levelOne = 1;
 let timeLimit = 30;
 let intervalId;
 let changedBox;
+let lives = 5;
 
 // Colour to use in grid
 
@@ -60,10 +61,13 @@ document.getElementById("start-game").addEventListener("click", () => {
     startGame();
 });
 
-// Make user click on correct div, and win
+// Score section
 
-
-// Reset Game
+function loseLives() {
+    let oldLives = parseInt(document.getElementById("lives").innerText);
+    let newLives = oldLives - 1;
+    document.getElementById("lives").innerText = newLives;
+}
 
 
 
