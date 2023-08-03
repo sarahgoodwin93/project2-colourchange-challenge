@@ -170,9 +170,32 @@ li::before {
     flex-direction: column;
 }
 
-#reset {
+.reset {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     border: #e7014c;
     border-style: double;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    margin: auto;
+    color: #e7014c;
+}
+
+#start-game {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: #e7014c;
+    border-style: double;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    margin: auto;
+    color: #e7014c;
 }
 
 /* Footer */
