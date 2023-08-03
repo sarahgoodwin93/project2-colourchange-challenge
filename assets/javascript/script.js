@@ -1,7 +1,7 @@
 // Variables
 
 let levelOne = 1;
-let timeLimit = 30;
+let timeLimit = 10;
 let intervalId;
 let changedBox;
 let lives = 5;
@@ -17,13 +17,13 @@ function changeBackground(boxId) {
     if (boxId === changedBox) {
         clearInterval(intervalId);
         levelOne++;
-        timeLimit = 30 - (levelOne - 1) * 2;
+        timeLimit = 10 - (levelOne - 1) * 2;
         startGame();
     } else {
         clearInterval(intervalId);
         alert('Sorry Wrong Box, Try again!');
         levelOne = 1;
-        timeLimit = 30;
+        timeLimit = 10;
         startGame();
     }
 }
@@ -50,9 +50,9 @@ function startGame() {
         clearInterval(intervalId);
         alert('Times Up! Reset to begin the game again');
         levelOne = 1;
-        timeLimit = 30;
+        timeLimit = 10;
         startGame();
-    }, timeLimit * 3000);
+    }, timeLimit * 1000);
 }
 
 // Start Game Click
@@ -67,6 +67,14 @@ function loseLives() {
     let oldLives = parseInt(document.getElementById("lives").innerText);
     let newLives = oldLives - 1;
     document.getElementById("lives").innerText = newLives;
+}
+
+// Level section
+
+function addLevel() {
+    let currentLevel = parseInt(document.getElementById("level").innerText);
+    let newLevel = currentLevel + 1;
+    document.getElementById("level").innerText = newLevel;
 }
 
 
