@@ -20,4 +20,12 @@ function changeBackground(divId) {
 
 function generateGrid() {
     let grid = document.getElementById("grid");
+
+    for (let i = 0; i < 16; i++) {
+        let gridItem = document.createElement("div");
+        gridItem.classList.add("grid-item");
+        gridItem.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        gridItem.addEventListener("click", handleClick);
+        grid.appendChild(gridItem);
+    }
 }
