@@ -170,7 +170,7 @@ li::before {
     flex-direction: column;
 }
 
-.reset {
+#reset {
     display: flex;
     justify-content: center;
     text-align: center;

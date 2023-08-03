@@ -134,6 +134,12 @@ The live link can be found here [Does It Match]( https://sarahgoodwin93.github.i
 
 ## Credits
 
+### Specific sources
+
+- <https://www.w3schools.com/js/js_arrow_function.asp>
+
+- <https://www.youtube.com/watch?v=8rXj6q0AAkk>
+
 ### Content
 
 ### Images
