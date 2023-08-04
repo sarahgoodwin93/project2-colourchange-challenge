@@ -52,7 +52,6 @@ function startGame() {
         alert('Times Up! Reset to begin the game again');
         levelOne = 1;
         timeLimit = 10;
-        startGame();
     }, timeLimit * 1000);
 }
 
