@@ -2,10 +2,13 @@
 
 let levelOne = 1;
 let timeLimit = 10;
+let countDown;
+let time;
 let intervalId;
 let changedBox;
 let lives = 5;
 let level = 0;
+
 
 // Colour to use in grid
 
@@ -77,6 +80,18 @@ function addLevel() {
     document.getElementById("level").innerText = newLevel;
 }
 
+// Countdown Timer
+
+function updateTimer() {
+    let time = document.getElementById("time");
+    let timeLimit = timeLimit - 1;
+    if (timeLimit >= 0)
+        $(`#time`).html(timeLimit);
+    else {
+        alert('Game over');
+    }
+
+}
 
 
 

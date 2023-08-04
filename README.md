@@ -140,6 +140,8 @@ The live link can be found here [Does It Match]( https://sarahgoodwin93.github.i
 
 - <https://www.youtube.com/watch?v=8rXj6q0AAkk>
 
+- <https://www.w3schools.com/js/js_timing.asp>
+
 ### Content
 
 ### Images

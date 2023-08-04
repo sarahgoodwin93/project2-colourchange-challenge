@@ -225,6 +225,17 @@ li::before {
     color: white !important;
 }
 
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #e7014c;
+    flex-direction: column;
+    font-size: 25px;
+}
+
 /* Footer */
 
 .social {

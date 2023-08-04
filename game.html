@@ -34,40 +34,50 @@
 
     <!-- Main -->
     <main>
-        <button id="start-game" class="button">Start Game</button>
-        <div id="game-table">
-            <div id="row1">
-                <div id="one" class="box" onclick="changeBackground('one');" data-value="1"></div>
-                <div id="two" class="box" onclick="changeBackground('two');" data-value="2"></div>
-                <div id="three" class="box" onclick="changeBackground('three');" data-value="3"></div>
-                <div id="four" class="box" onclick="changeBackground('four');" data-value="4"></div>
+        <section>
+            <button id="start-game" class="button">Start Game</button>
+            <div id="game-table">
+                <div id="row1">
+                    <div id="one" class="box" onclick="changeBackground('one');" data-value="1"></div>
+                    <div id="two" class="box" onclick="changeBackground('two');" data-value="2"></div>
+                    <div id="three" class="box" onclick="changeBackground('three');" data-value="3"></div>
+                    <div id="four" class="box" onclick="changeBackground('four');" data-value="4"></div>
+                </div>
+                <div id="row2">
+                    <div id="five" class="box" onclick="changeBackground('five');" data-value="5"></div>
+                    <div id="six" class="box" onclick="changeBackground('six');" data-value="6"></div>
+                    <div id="seven" class="box" onclick="changeBackground('seven');" data-value="7"></div>
+                    <div id="eight" class="box" onclick="changeBackground('eight');" data-value="8"></div>
+                </div>
+                <div id="row3">
+                    <div id="nine" class="box" onclick="changeBackground('nine');" data-value="9"></div>
+                    <div id="ten" class="box" onclick="changeBackground('ten');" data-value="10"></div>
+                    <div id="eleven" class="box" onclick="changeBackground('eleven');" data-value="11"></div>
+                    <div id="twelve" class="box" onclick="changeBackground('twelve');" data-value="12"></div>
+                </div>
+                <div id="row4">
+                    <div id="thirteen" class="box" onclick="changeBackground('thirteen');" data-value="13"></div>
+                    <div id="fourteen" class="box" onclick="changeBackground('fourteen');" data-value="14"></div>
+                    <div id="fifteen" class="box" onclick="changeBackground('fifteen');" data-value="15"></div>
+                    <div id="sixteen" class="box" onclick="changeBackground('sixteen');" data-value="16"></div>
+                </div>
             </div>
-            <div id="row2">
-                <div id="five" class="box" onclick="changeBackground('five');" data-value="5"></div>
-                <div id="six" class="box" onclick="changeBackground('six');" data-value="6"></div>
-                <div id="seven" class="box" onclick="changeBackground('seven');" data-value="7"></div>
-                <div id="eight" class="box" onclick="changeBackground('eight');" data-value="8"></div>
+        </section>
+        <section>
+            <div class="countdown-timer">
+                <h1>Time:
+                    <span id="time">10</span>
+                </h1>
             </div>
-            <div id="row3">
-                <div id="nine" class="box" onclick="changeBackground('nine');" data-value="9"></div>
-                <div id="ten" class="box" onclick="changeBackground('ten');" data-value="10"></div>
-                <div id="eleven" class="box" onclick="changeBackground('eleven');" data-value="11"></div>
-                <div id="twelve" class="box" onclick="changeBackground('twelve');" data-value="12"></div>
+        </section>
+        <section>
+            <div class="score">
+                <h1>Scores</h1>
+                <h2>Level:<span id="level"> 1</span></h2>
+                <h2>Lives left:<span id="lives"> 5</span></h2>
+                <button id="reset" class="button">Reset</button>
             </div>
-            <div id="row4">
-                <div id="thirteen" class="box" onclick="changeBackground('thirteen');" data-value="13"></div>
-                <div id="fourteen" class="box" onclick="changeBackground('fourteen');" data-value="14"></div>
-                <div id="fifteen" class="box" onclick="changeBackground('fifteen');" data-value="15"></div>
-                <div id="sixteen" class="box" onclick="changeBackground('sixteen');" data-value="16"></div>
-            </div>
-        </div>
-
-        <div class="score">
-            <h1>Scores</h1>
-            <h2>Level:<span id="level"> 1</span></h2>
-            <h2>Lives left:<span id="lives"> 5</span></h2>
-            <button id="reset" class="button">Reset</button>
-        </div>
+        </section>
     </main>
 
     <!-- Footers -->
