@@ -2,8 +2,6 @@
 
 let levelOne = 1;
 let timeLimit = 10;
-let countDown;
-let time;
 let intervalId;
 let changedBox;
 let lives = 5;
@@ -81,17 +79,6 @@ function addLevel() {
 }
 
 // Countdown Timer
-
-function updateTimer() {
-    let time = document.getElementById("time");
-    let timeLimit = timeLimit - 1;
-    if (timeLimit >= 0)
-        $(`#time`).html(timeLimit);
-    else {
-        alert('Game over');
-    }
-
-}
 
 
 
