@@ -159,6 +159,10 @@ li::before {
     margin: 5px;
 }
 
+#box-one {
+    background-color: #EB336F !important;
+}
+
 /* Play Game */
 
 .box {
@@ -268,8 +272,16 @@ li::before {
 
 @media screen and (max-width: 600px) {
     .box {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        font-size: 12px;
+    }
+
+    .static-box {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
         font-size: 12px;
     }
 }
