@@ -26,7 +26,6 @@ function changeBackground(boxId) {
         alert('Sorry Wrong Box, Try again!');
         levelOne = 1;
         timeLimit = 10;
-        startGame();
     }
 }
 
@@ -48,35 +47,28 @@ function startGame() {
     let randomBox = Math.floor(Math.random() * allBoxes.length);
     changedBox = allBoxes[randomBox].id;
     document.getElementById(changedBox).style.backgroundColor = randomColor();
-    intervalId = setInterval(() => {
-        clearInterval(intervalId);
-        alert('Times Up! Reset to begin the game again');
-        levelOne = 1;
-        timeLimit = 10;
-    }, timeLimit * 1000);
-}
 
-// Start Game Click
+    // Start Game Click
 
-document.getElementById("start-game").addEventListener("click", () => {
-    startGame();
-});
+    document.getElementById("start-game").addEventListener("click", (function () {
+        startGame();
+    });
 
-// Score section
+    // Score section
 
-function loseLives() {
-    let oldLives = parseInt(document.getElementById("lives").innerText);
-    let newLives = oldLives - 1;
-    document.getElementById("lives").innerText = newLives;
-}
+    function loseLives() {
+        let oldLives = parseInt(document.getElementById("lives").innerText);
+        let newLives = oldLives - 1;
+        document.getElementById("lives").innerText = newLives;
+    }
 
-// Level section
+    // Level section
 
-function addLevel() {
-    let currentLevel = parseInt(document.getElementById("level").innerText);
-    let newLevel = currentLevel + 1;
-    document.getElementById("level").innerText = newLevel;
-}
+    function addLevel() {
+        let currentLevel = parseInt(document.getElementById("level").innerText);
+        let newLevel = currentLevel + 1;
+        document.getElementById("level").innerText = newLevel;
+    }
 
 // Countdown Timer
 
