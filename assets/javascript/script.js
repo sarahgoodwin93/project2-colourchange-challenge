@@ -5,6 +5,7 @@ let timeLimit = 10;
 let intervalId;
 let changedBox;
 let lives = 5;
+let level = 0;
 
 // Colour to use in grid
 
