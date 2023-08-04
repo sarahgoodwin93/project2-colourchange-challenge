@@ -200,7 +200,7 @@ li::before {
 
 .button:hover {
     background-color: #ff9e1d;
-    color: white;
+    color: white !important;
 }
 
 /* Footer */
