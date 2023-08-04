@@ -241,9 +241,17 @@ li::before {
 
 /* Media Query for mobile max width 768 */
 
-@media (max-width: 768) {
+@media (max-width: 780) {
     #logo-img {
         width: 80%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        height: 50px;
+        width: 50px;
+        font-size: 12px;
     }
 }
