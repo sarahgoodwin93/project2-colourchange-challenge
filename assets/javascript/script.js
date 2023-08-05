@@ -47,7 +47,7 @@ function startGame() {
     document.getElementById(changedBox).style.backgroundColor = randomColor();
 
     clearInterval(intervalId);
-    intervalId = setInterval(() => {
+    intervalId = setInterval(function () {
         let randomBox = Math.floor(Math.random() * allBoxes.length);
         changedBox = allBoxes[randomBox].id;
         document.getElementById(changedBox).style.backgroundColor = randomColor();
