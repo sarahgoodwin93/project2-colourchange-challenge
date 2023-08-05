@@ -3,7 +3,7 @@
 let levelOne = 1;
 let timeLimit = 10;
 let intervalId;
-let changedBox;
+let changedBox = null;
 let lives = 5;
 let level = 0;
 
@@ -47,19 +47,18 @@ function startGame() {
     let randomBox = Math.floor(Math.random() * allBoxes.length);
     changedBox = allBoxes[randomBox].id;
     document.getElementById(changedBox).style.backgroundColor = randomColor();
-    intervalId = setInterval(() => {
-        clearInterval(intervalId);
-        alert('Times Up! Reset to begin the game again');
-        levelOne = 1;
-        timeLimit = 10;
-    }, timeLimit * 1000);
+
+    setInterval(() => {
+        let randomBox = Math.floor(Math.random() * allBoxes.length);
+        changedBox = allBoxes[randomBox].id;
+        document.getElementById(changedBox).style.backgroundColor = randomColor();
+    }, 2000);
 }
 
 // Start Game Click
 
-document.getElementById("start-game").addEventListener("click", () => {
-    startGame();
-});
+let startButton = document.getElementById("start-game");
+startButton.addEventListener("click", startGame);
 
 // Score section
 
@@ -77,17 +76,7 @@ function addLevel() {
     document.getElementById("level").innerText = newLevel;
 }
 
-// Countdown Timer
-function updateTimer() {
-    let time = document.getElementById("time");
-    let timeLimit = timeLimit - 1;
-    if (timeLimit >= 0)
-        $(`#time`).html(timeLimit);
-    else {
-        alert('Game over');
-    }
 
-}
 
 
 
