@@ -147,3 +147,9 @@ The live link can be found here [Does It Match]( https://sarahgoodwin93.github.i
 ### Images
 
 ### Education
+
+### Game Journey
+
+## Game idea 1
+## Game idea 2
+## Game idea 3
