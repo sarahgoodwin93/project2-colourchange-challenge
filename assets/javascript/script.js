@@ -4,8 +4,8 @@ let levelOne = 1;
 let timeLimit = 10;
 let intervalId;
 let changedBox = null;
-let lives = 5;
-let level = 0;
+let level = 1;
+let clicks = 0;
 
 
 // Colour to use in grid
@@ -92,10 +92,10 @@ startButton.addEventListener("click", startGame);
 
 // Score section
 
-function loseLives() {
-    let oldLives = parseInt(document.getElementById("lives").innerText);
-    let newLives = oldLives - 1;
-    document.getElementById("lives").innerText = newLives;
+function increaseClicks() {
+    let currentClicks = parseInt(document.getElementById("clicks").innerText);
+    let newClicks = currentClicks - 1;
+    document.getElementById("lives").innerText = newClicks;
 }
 
 // Level section
