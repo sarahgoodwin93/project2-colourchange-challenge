@@ -19,10 +19,12 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6",
 
 /**
  * This if statement checks if the box that has been clicked matches the box that has changed colour
+ * If the correct box is clicked, the increaseClicks function is called 
  */
 function changeBackground(boxId) {
     if (boxId === changedBox) {
         clearInterval(intervalId);
+        increaseClicks();
         startGame();
         /**
          * If user clicks on the wrong box the below message will appear
@@ -52,32 +54,32 @@ function randomColor() {
 function startGame() {
     changedBox = null;
     let allBoxes = document.getElementsByClassName("box");
-/**
- * The for loop goes through each box and makes sure its background is set to the original pink colour
- */
+    /**
+     * The for loop goes through each box and makes sure its background is set to the original pink colour
+     */
     for (let i = 0; i < allBoxes.length; i++) {
         allBoxes[i].style.backgroundColor = "#e7014c";
     }
-/**
- * This generates which random box will change colour, and calls the randomColor function written above
- */
+    /**
+     * This generates which random box will change colour, and calls the randomColor function written above
+     */
     let randomBox = Math.floor(Math.random() * allBoxes.length);
     changedBox = allBoxes[randomBox].id;
     document.getElementById(changedBox).style.backgroundColor = randomColor();
 
-/**
- * The clear interval clears any exisiting timer and ensures 
- * that the previouis internal is stoped before starting a new one.
- * This was impliments so that the colours did not all change together 
- */
+    /**
+     * The clear interval clears any exisiting timer and ensures 
+     * that the previouis internal is stoped before starting a new one.
+     * This was impliments so that the colours did not all change together 
+     */
     clearInterval(intervalId);
     intervalId = setInterval(function () {
         let randomBox = Math.floor(Math.random() * allBoxes.length);
         changedBox = allBoxes[randomBox].id;
         document.getElementById(changedBox).style.backgroundColor = randomColor();
-/**
- * This time means that the boxes change colour every 2 seconds.
- */
+        /**
+         * This time means that the boxes change colour every 2 seconds.
+         */
     }, 2000);
 }
 
@@ -94,8 +96,8 @@ startButton.addEventListener("click", startGame);
 
 function increaseClicks() {
     let currentClicks = parseInt(document.getElementById("clicks").innerText);
-    let newClicks = currentClicks - 1;
-    document.getElementById("lives").innerText = newClicks;
+    let newClicks = currentClicks + 1;
+    document.getElementById("clicks").innerText = newClicks;
 }
 
 // Level section
@@ -106,7 +108,25 @@ function addLevel() {
     document.getElementById("level").innerText = newLevel;
 }
 
-// Timer
+// Reset Game
+
+function resetGame() {
+    clearInterval(intervalId);
+    clicks = 0;
+    level = 1;
+    document.getElementById("clicks").innterText = clicks;
+    document.getElementById("level").innerText = level;
+
+    let allBoxes = document.getElementsByClassName("box");
+    for (let i = 0; i < allBoxes.length; i++) {
+        allBoxes[i].style.backgroundColor = "e7014c";
+    }
+}
+
+// Click Reset Button
+
+let resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", resetGame);
 
 
 
