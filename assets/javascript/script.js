@@ -18,14 +18,10 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6",
 function changeBackground(boxId) {
     if (boxId === changedBox) {
         clearInterval(intervalId);
-        levelOne++;
-        timeLimit = 10 - (levelOne - 1) * 2;
         startGame();
     } else {
         clearInterval(intervalId);
         alert('Sorry Wrong Box, Try again!');
-        levelOne = 1;
-        timeLimit = 10;
     }
 }
 
@@ -41,14 +37,17 @@ function randomColor() {
 function startGame() {
     changedBox = null;
     let allBoxes = document.getElementsByClassName("box");
+
     for (let i = 0; i < allBoxes.length; i++) {
         allBoxes[i].style.backgroundColor = "#e7014c";
     }
+
     let randomBox = Math.floor(Math.random() * allBoxes.length);
     changedBox = allBoxes[randomBox].id;
     document.getElementById(changedBox).style.backgroundColor = randomColor();
 
-    setInterval(() => {
+    clearInterval(intervalId);
+    intervalId = setInterval(() => {
         let randomBox = Math.floor(Math.random() * allBoxes.length);
         changedBox = allBoxes[randomBox].id;
         document.getElementById(changedBox).style.backgroundColor = randomColor();
