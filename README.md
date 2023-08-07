@@ -1,6 +1,6 @@
 # [ColourChange Challenge](https://sarahgoodwin93.github.io/project2-colourchange-challenge/ "Link to Does It Match Webpage")
 
-![Responsive Image] (assets/images/readme-images/am-i-responsive.png "am I responsive screenshot image")
+![Responsive Image](assets/images/readme-images/am-i-responsive.png "am I responsive screenshot image")
 
 The ColourChange Challenge is a game to test your speed and reactions.
 Users clicks will be counted, the faster they click, the more they will score!
