@@ -1,11 +1,10 @@
 // Variables
 
-let levelOne = 1;
-let timeLimit = 10;
 let intervalId;
 let changedBox = null;
 let level = 1;
 let clicks = 0;
+let seconds = 10;
 
 
 // Colour to use in grid
@@ -114,14 +113,23 @@ function addLevel() {
 console.log('add new level');
 
 // Reset Game
+/**
+ * Clears the interval timer and resets clicks to 0 and the level to 1.
+ */
 
 function resetGame() {
     clearInterval(intervalId);
     clicks = 0;
     level = 1;
+    /**
+     * Returns clicks to 0 and level to 1.
+     */
     document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
 
+    /**
+     * Changes all the boxes back to pink (#e7014c)
+     */
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
         allBoxes[i].style.backgroundColor = "#e7014c";
@@ -129,12 +137,23 @@ function resetGame() {
 }
 
 // Click Reset Button
+/**
+ * Once the reset button is clicked, the resetGame function will be called.
+ */
 
 let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
 console.log('reset game');
 
-
-
-
+// Timer
+function countDown() {
+let timer = setInterval(function() {
+    document.getElementById("timer").innerHTML = seconds + " seconds remaining";
+    seconds--;
+    if (seconds <0) {
+        clearInterval(timer);
+        document.getElementById("timer").innerHTML = "Times up!"
+    }
+}, 1000);
+}
 
