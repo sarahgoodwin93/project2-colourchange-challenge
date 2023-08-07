@@ -26,12 +26,14 @@ function changeBackground(boxId) {
         clearInterval(intervalId);
         increaseClicks();
         startGame();
+        console.log('box clicked');
         /**
          * If user clicks on the wrong box the below message will appear
          */
     } else {
         clearInterval(intervalId);
         alert('Sorry Wrong Box, Try again!');
+        console.log('wrong box');
     }
 }
 
@@ -91,6 +93,7 @@ function startGame() {
 
 let startButton = document.getElementById("start-game");
 startButton.addEventListener("click", startGame);
+console.log('start game');
 
 // Score section
 
@@ -99,6 +102,7 @@ function increaseClicks() {
     let newClicks = currentClicks + 1;
     document.getElementById("clicks").innerText = newClicks;
 }
+console.log('Add click');
 
 // Level section
 
@@ -107,6 +111,7 @@ function addLevel() {
     let newLevel = currentLevel + 1;
     document.getElementById("level").innerText = newLevel;
 }
+console.log('add new level');
 
 // Reset Game
 
@@ -114,7 +119,7 @@ function resetGame() {
     clearInterval(intervalId);
     clicks = 0;
     level = 1;
-    document.getElementById("clicks").innterText = clicks;
+    document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
 
     let allBoxes = document.getElementsByClassName("box");
@@ -127,7 +132,7 @@ function resetGame() {
 
 let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
-
+console.log('reset game');
 
 
 
