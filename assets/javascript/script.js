@@ -81,20 +81,6 @@ function startGame() {
          * This time means that the boxes change colour every 2 seconds.
          */
     }, 2000);
-    /**
-     * Countdown timer to start once the start game button has been clicked
-     */
-    clearInterval(countDown);
-    seconds = 10;
-    countDown = setInterval(function () {
-        document.getElementById("timer").innerHTML = seconds;
-        seconds--;
-        if (seconds < 0) {
-            clearInterval(countDown);
-            document.getElementById("timer").innerHTML = "Times up!";
-            resetGame();
-        }
-    }, 1000);
 }
 
 // Score section
@@ -137,7 +123,20 @@ function resetGame() {
  */
 
 let startButton = document.getElementById("start-game");
-startButton.addEventListener("click", startGame);
+startButton.addEventListener("click", function () {
+    startGame();
+    /**
+     * Countdown timer to start once the start game button has been clicked
+     */
+    countDown = setInterval(function () {
+        document.getElementById("timer").innerHTML = seconds;
+        seconds--;
+        if (seconds < 0) {
+            clearInterval(countDown);
+            document.getElementById("timer").innerHTML = "Times up!";
+        }
+    }, 1000);
+});
 console.log('start game');
 
 // Level section
