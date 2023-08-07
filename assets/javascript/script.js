@@ -5,6 +5,7 @@ let changedBox = null;
 let level = 1;
 let clicks = 0;
 let seconds = 10;
+let countDown;
 
 
 // Colour to use in grid
@@ -85,7 +86,7 @@ function startGame() {
      */
     clearInterval(countDown);
     seconds = 10;
-    let countDown = setInterval(function () {
+    countDown = setInterval(function () {
         document.getElementById("timer").innerHTML = seconds;
         seconds--;
         if (seconds < 0) {
