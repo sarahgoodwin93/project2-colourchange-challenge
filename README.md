@@ -1,22 +1,37 @@
-# [ColourChange Challenge]( https://sarahgoodwin93.github.io/project2-colourchange-challenge/ "Link to Does It Match Webpage")
+# [ColourChange Challenge](https://sarahgoodwin93.github.io/project2-colourchange-challenge/ "Link to Does It Match Webpage")
 
-![Responsive Image] "am I responsive screenshot image")
+![Responsive Image] "am I responsive screenshot image"
 
-About site
+The ColourChange Challenge is a game to test your speed and reactions.
+Users clicks will be counted, the faster they click, the more they will score!
+
+The site will target people wanting a fun easy game to test their reaction time and eye site. Users can come back to the site to try to beat their score.
+
+In the game the boxes will change colour at various speeds depending on the level, users must click on the correct box for it to be counted as a click and for their score to increase. Aim of the game is try to get the biggest number of clicks.
+
+The timer will get faster, the boxes will change quicker and the fun will get greater!
 
 ### Key Project Goals
 
+- Provide easy navigation for users across all pages of the site
+- Provide a fun interactive game for users to test their visual reaction time and hand eye coordination
+- Provide easy to understand instructions so that users know how to play the game
+
 ### Target Audience
+
+The target audience for this website is
+
+- First time users
+- Returning users
+- People wanting to improve reaction time
 
 ### User Stories
 
-#### Story 1
+#### First time users
 
-#### Story 2
+#### Returning Users
 
-#### Story 3
-
-#### Story 4
+#### Reaction Times
 
 ## Design
 
@@ -72,21 +87,21 @@ About site
 
 ### Mobile and iPad Testing Comments
 
-| **TEST**                      | **ACTION**                            | **EXPECTATION**               | **RESULT**                            | **FIX**                                |
-| ----------------------------- | ------------------------------------- | ----------------------------- | ------------------------------------- | -------------------------------------- |
-| | | | | |
+| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
+| -------- | ---------- | --------------- | ---------- | ------- |
+|          |            |                 |            |         |
 
 ### Nav Bar Testing Comments
 
-| **TEST**                      | **ACTION**                            | **EXPECTATION**               | **RESULT**                            | **FIX**                                |
-| ----------------------------- | ------------------------------------- | ----------------------------- | ------------------------------------- | -------------------------------------- |
-| | | | | |
+| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
+| -------- | ---------- | --------------- | ---------- | ------- |
+|          |            |                 |            |         |
 
 ### Other Testing Comments
 
-| **TEST**                      | **ACTION**                            | **EXPECTATION**               | **RESULT**                            | **FIX**                                |
-| ----------------------------- | ------------------------------------- | ----------------------------- | ------------------------------------- | -------------------------------------- |
-| | | | | |
+| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
+| -------- | ---------- | --------------- | ---------- | ------- |
+|          |            |                 |            |         |
 
 ### Unfixed Bugs
 
@@ -104,14 +119,14 @@ To deploy this page to GitHub Pages from its Codeanywhere repository, the follow
 4. Close README tab and create first file named index.html
 5. Press ! TAB to create <!DOCTYPE html>
 6. Open terminal, type (git add .) (git commit -m "initial commit") (git push)
-7. Locate the [GitHub Repository]( https://github.com/sarahgoodwin93/does-it-match.git "Link to The Hike Site Repo") for Does It Match.
+7. Locate the [GitHub Repository](https://github.com/sarahgoodwin93/does-it-match.git "Link to The Hike Site Repo") for Does It Match.
 8. At the top of the repository, select Settings from the menu items.
 9. On the side bar menu under 'Code and automation', click on "Pages"
 10. Change 'Branch' from "None" to "main", press 'Save'
 11. Once saved, wait a few minutes for page to deploy
 12. Navigate back to "Pages" and here you will find your deployed link.
 
-The live link can be found here [Does It Match]( https://sarahgoodwin93.github.io/does-it-match/ "Link to deployed Does It Match")
+The live link can be found here [Does It Match](https://sarahgoodwin93.github.io/does-it-match/ "Link to deployed Does It Match")
 
 ## Technologies Used
 
@@ -119,7 +134,6 @@ The live link can be found here [Does It Match]( https://sarahgoodwin93.github.i
 - [CSS3](https://en.wikipedia.org/wiki/CSS "Link to CSS3 wikipedia")
 
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts webpage")
-  
 - [Codeanywhere](https://app.codeanywhere.com/ "Link to Codeanywhere webpage")
   GitPod was used for writing code, adding, commiting and pushing to girhub
 - [GitHub](https://github.com/ "Link to GitHub webpage")
@@ -142,7 +156,7 @@ The live link can be found here [Does It Match]( https://sarahgoodwin93.github.i
 
 - <https://www.w3schools.com/js/js_timing.asp>
 
-https://www.w3schools.com/howto/howto_js_countdown.asp 
+https://www.w3schools.com/howto/howto_js_countdown.asp
 
 ### Content
 
@@ -153,5 +167,7 @@ https://www.w3schools.com/howto/howto_js_countdown.asp
 ### Game Journey
 
 ## Game idea 1
+
 ## Game idea 2
+
 ## Game idea 3
