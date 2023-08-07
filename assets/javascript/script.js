@@ -80,30 +80,21 @@ function startGame() {
          * This time means that the boxes change colour every 2 seconds.
          */
     }, 2000);
-    console.log(randomBox);
     /**
      * Countdown timer to start once the start game button has been clicked
      */
+    clearInterval(countDown);
+    seconds = 10;
     let countDown = setInterval(function () {
         document.getElementById("timer").innerHTML = seconds;
         seconds--;
         if (seconds < 0) {
             clearInterval(countDown);
             document.getElementById("timer").innerHTML = "Times up!";
+            resetGame();
         }
     }, 1000);
-    console.log(countDown);
 }
-
-// Start Game Click
-
-/**
- * This function begins the game once the user clicks on the start game button
- */
-
-let startButton = document.getElementById("start-game");
-startButton.addEventListener("click", startGame);
-console.log('start game');
 
 // Score section
 
@@ -113,15 +104,6 @@ function increaseClicks() {
     document.getElementById("clicks").innerText = newClicks;
 }
 console.log('Add click');
-
-// Level section
-
-function addLevel() {
-    let currentLevel = parseInt(document.getElementById("level").innerText);
-    let newLevel = currentLevel + 1;
-    document.getElementById("level").innerText = newLevel;
-}
-console.log('add new level');
 
 // Reset Game
 /**
@@ -146,6 +128,25 @@ function resetGame() {
         allBoxes[i].style.backgroundColor = "#e7014c";
     }
 }
+
+// Start Game Click
+
+/**
+ * This function begins the game once the user clicks on the start game button
+ */
+
+let startButton = document.getElementById("start-game");
+startButton.addEventListener("click", startGame);
+console.log('start game');
+
+// Level section
+
+function addLevel() {
+    let currentLevel = parseInt(document.getElementById("level").innerText);
+    let newLevel = currentLevel + 1;
+    document.getElementById("level").innerText = newLevel;
+}
+console.log('add new level');
 
 // Click Reset Button
 /**
