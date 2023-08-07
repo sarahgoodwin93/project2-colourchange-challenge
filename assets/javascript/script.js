@@ -124,7 +124,7 @@ function resetGame() {
 
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
-        allBoxes[i].style.backgroundColor = "e7014c";
+        allBoxes[i].style.backgroundColor = "#e7014c";
     }
 }
 
