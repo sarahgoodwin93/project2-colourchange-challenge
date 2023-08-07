@@ -13,7 +13,6 @@ let seconds = 10;
  */
 let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6",
     "#ffabab", "#ff9cee", "#ffcf9", "#b28dff", "#c4faf8", "#fff5ba", "#ffbebc"];
-
 // Change one div to random color
 
 /**
@@ -34,14 +33,6 @@ function changeBackground(boxId) {
         alert('Sorry Wrong Box, Try again!');
         console.log('wrong box');
     }
-
-    let newBox = document.getElementById(boxId);
-    let newColor = randomColor();
-    while (newColor === newBox.style.backgroundColor) {
-        newColor = randomColor();
-    }
-
-    newBox.style.backgroundColor = newColor;
 }
 
 // Get random color from array
@@ -77,9 +68,8 @@ function startGame() {
     document.getElementById(changedBox).style.backgroundColor = randomColor();
 
     /**
-     * The clear interval clears any exisiting timer and ensures 
-     * that the previouis internal is stoped before starting a new one.
-     * This was impliments so that the colours did not all change together 
+     * The clear interval clears the previouis internal is stoped before starting a new one.
+     * This was impliments so that the colours did not all change together.
      */
     clearInterval(intervalId);
     intervalId = setInterval(function () {
@@ -90,6 +80,7 @@ function startGame() {
          * This time means that the boxes change colour every 2 seconds.
          */
     }, 2000);
+    console.log(randomBox);
     /**
      * Countdown timer to start once the start game button has been clicked
      */
@@ -101,6 +92,7 @@ function startGame() {
             document.getElementById("timer").innerHTML = "Times up!";
         }
     }, 1000);
+    console.log(countDown);
 }
 
 // Start Game Click
