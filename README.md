@@ -1,4 +1,4 @@
-# [Does it Match]( https://sarahgoodwin93.github.io/does-it-match/ "Link to Does It Match Webpage")
+# [ColourChange Challenge]( https://sarahgoodwin93.github.io/project2-colourchange-challenge/ "Link to Does It Match Webpage")
 
 ![Responsive Image] "am I responsive screenshot image")
 
