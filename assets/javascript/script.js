@@ -5,7 +5,6 @@ let changedBox = null;
 let level = 1;
 let clicks = 0;
 let seconds = 10;
-let countDown;
 
 
 // Colour to use in grid
@@ -62,9 +61,6 @@ function randomColor() {
  * This function begins by making sure the changedBox is resert to null at the beginning of each round
  */
 function startGame() {
-    clearInterval(intervalId);
-    clearInterval(countDown);
-    seconds = 10;
     changedBox = null;
     let allBoxes = document.getElementsByClassName("box");
     /**
@@ -97,7 +93,7 @@ function startGame() {
     /**
      * Countdown timer to start once the start game button has been clicked
      */
-    countDown = setInterval(function () {
+    let countDown = setInterval(function () {
         document.getElementById("timer").innerHTML = seconds;
         seconds--;
         if (seconds < 0) {
