@@ -1,6 +1,6 @@
 # [ColourChange Challenge](https://sarahgoodwin93.github.io/project2-colourchange-challenge/ "Link to Does It Match Webpage")
 
-![Responsive Image] (assets/readme-images/am-i-responsive.png "am I responsive screenshot image")
+![Responsive Image] (assets/images/readme-images/am-i-responsive.png "am I responsive screenshot image")
 
 The ColourChange Challenge is a game to test your speed and reactions.
 Users clicks will be counted, the faster they click, the more they will score!
@@ -29,9 +29,21 @@ The target audience for this website is
 
 #### First time users
 
+1. As a first time user
+2. As a first time user
+3. As a first time user
+
 #### Returning Users
 
+1. As a returning time user
+2. As a returning time user
+3. As a returning time user
+
 #### Reaction Times
+
+1. As someone who wishes to improve their reaction time
+2. As someone who wishes to improve their reaction time
+3. As someone who wishes to improve their reaction time
 
 ## Design
 
