@@ -4,7 +4,7 @@ let intervalId;
 let changedBox = null;
 let level = 1;
 let clicks = 0;
-let seconds = 10;
+let seconds = 20;
 let countDown;
 
 
@@ -119,7 +119,8 @@ function resetGame() {
 // Start Game Click
 
 /**
- * This function begins the game once the user clicks on the start game button
+ * This function begins the game once the user clicks on the start game button.
+ * It then also begins the timer once the button has been clicked.
  */
 
 let startButton = document.getElementById("start-game");
