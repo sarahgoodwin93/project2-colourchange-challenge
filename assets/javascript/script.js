@@ -92,30 +92,6 @@ function increaseClicks() {
 }
 console.log('Add click');
 
-// Reset Game
-/**
- * Clears the interval timer and resets clicks to 0 and the level to 1.
- */
-
-function resetGame() {
-    clearInterval(intervalId);
-    clicks = 0;
-    level = 1;
-    /**
-     * Returns clicks to 0 and level to 1.
-     */
-    document.getElementById("clicks").innerText = 0;
-    document.getElementById("level").innerText = level;
-
-    /**
-     * Changes all the boxes back to pink (#e7014c)
-     */
-    let allBoxes = document.getElementsByClassName("box");
-    for (let i = 0; i < allBoxes.length; i++) {
-        allBoxes[i].style.backgroundColor = "#e7014c";
-    }
-}
-
 // Start Game Click
 
 /**
@@ -135,10 +111,37 @@ startButton.addEventListener("click", function () {
         if (seconds < 0) {
             clearInterval(countDown);
             document.getElementById("timer").innerHTML = "Times up!";
+            resetGame();
         }
     }, 1000);
 });
 console.log('start game');
+
+// Reset Game
+/**
+ * Clears the interval timer and resets clicks to 0 and the level to 1.
+ */
+
+function resetGame() {
+    clearInterval(intervalId);
+    clearInterval(countDown);
+    clicks = 0;
+    level = 1;
+    seconds = 20;
+    /**
+     * Returns clicks to 0 and level to 1.
+     */
+    document.getElementById("clicks").innerText = 0;
+    document.getElementById("level").innerText = level;
+
+    /**
+     * Changes all the boxes back to pink (#e7014c)
+     */
+    let allBoxes = document.getElementsByClassName("box");
+    for (let i = 0; i < allBoxes.length; i++) {
+        allBoxes[i].style.backgroundColor = "#e7014c";
+    }
+}
 
 // Level section
 
