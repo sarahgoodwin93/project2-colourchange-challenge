@@ -34,6 +34,14 @@ function changeBackground(boxId) {
         alert('Sorry Wrong Box, Try again!');
         console.log('wrong box');
     }
+
+    let newBox = document.getElementById(boxId);
+    let newColor = randomColor();
+    while (newColor === newBox.style.backgroundColor) {
+        newColor = randomColor();
+    }
+
+    newBox.style.backgroundColor = newColor;
 }
 
 // Get random color from array
@@ -82,7 +90,9 @@ function startGame() {
          * This time means that the boxes change colour every 2 seconds.
          */
     }, 2000);
-
+    /**
+     * Countdown timer to start once the start game button has been clicked
+     */
     let countDown = setInterval(function () {
         document.getElementById("timer").innerHTML = seconds;
         seconds--;
