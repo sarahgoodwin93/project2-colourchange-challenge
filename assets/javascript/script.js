@@ -82,6 +82,15 @@ function startGame() {
          * This time means that the boxes change colour every 2 seconds.
          */
     }, 2000);
+
+    let countDown = setInterval(function () {
+        document.getElementById("timer").innerHTML = seconds;
+        seconds--;
+        if (seconds < 0) {
+            clearInterval(countDown);
+            document.getElementById("timer").innerHTML = "Times up!";
+        }
+    }, 1000);
 }
 
 // Start Game Click
@@ -145,15 +154,5 @@ let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
 console.log('reset game');
 
-// Timer
-function countDown() {
-let timer = setInterval(function() {
-    document.getElementById("timer").innerHTML = seconds + " seconds remaining";
-    seconds--;
-    if (seconds <0) {
-        clearInterval(timer);
-        document.getElementById("timer").innerHTML = "Times up!"
-    }
-}, 1000);
-}
+
 
