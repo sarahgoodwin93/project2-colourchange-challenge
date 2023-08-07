@@ -6,6 +6,7 @@ let level = 1;
 let clicks = 0;
 let seconds = 20;
 let countDown;
+let totalClicks = 0;
 
 
 // Colour to use in grid
@@ -89,6 +90,8 @@ function increaseClicks() {
     let currentClicks = parseInt(document.getElementById("clicks").innerText);
     let newClicks = currentClicks + 1;
     document.getElementById("clicks").innerText = newClicks;
+    totalClicks++;
+    document.getElementById("total-clicks").innerText = totalClicks;
 }
 console.log('Add click');
 
@@ -130,10 +133,10 @@ function resetGame() {
     seconds = 20;
     /**
      * Returns clicks to 0 and level to 1.
+     * Add previous clicks to total clicks
      */
     document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
-
     /**
      * Changes all the boxes back to pink (#e7014c)
      */
