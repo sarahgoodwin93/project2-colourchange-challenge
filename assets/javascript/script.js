@@ -9,6 +9,7 @@ let seconds = 10;
 let countDown;
 let totalClicks = 0;
 let timer = 10;
+let gameActive = false;
 
 
 /** COLOUR ARRAY
@@ -24,7 +25,10 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#faf99d", "#bffcc6",
  * If user clicks on the wrong box the below message will appear
  */
 function changeBackground(boxId) {
-    if (seconds < 0) {
+    if (!gameActive) {
+        return;
+    }
+    if (seconds <= 0) {
         stopBoxes();
         return;
     }
@@ -85,6 +89,7 @@ function startGame() {
     }, 2000);
     if (seconds <= 0) {
         resetGame();
+        return;
     }
 }
 
@@ -118,6 +123,7 @@ console.log('Add click');
 let startButton = document.getElementById("start-game");
 startButton.addEventListener("click", function () {
     startGame();
+    gameActive = true;
     countDown = setInterval(function () {
         document.getElementById("timer").innerHTML = seconds;
         seconds--;
@@ -144,6 +150,7 @@ function resetGame() {
     level = 1;
     seconds = 10;
     timer = 10;
+    gameActive = false;
     document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
     document.getElementById("timer").innerText = seconds;
