@@ -5,6 +5,7 @@ let countDownInterval;
 let changedBox = null;
 let level = 1;
 let clicks = 0;
+let missed = 0;
 let seconds = 10;
 let countDown;
 let totalClicks = 0;
@@ -135,11 +136,13 @@ function resetGame() {
     clearInterval(countDown);
     clicks = 0;
     level = 1;
+    missed = 0;
     seconds = 10;
     timer = 10;
     gameActive = false;
     document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
+    document.getElementById("missed").innerText = 0;
     document.getElementById("timer").innerText = seconds;
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
