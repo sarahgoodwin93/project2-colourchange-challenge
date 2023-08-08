@@ -20,9 +20,12 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#faf99d", "#bffcc6",
 
 
 /** WHICH BOX HAS CHANGED
- * This if statement checks if the box that has been clicked matches the box that has changed colour
+ * This if statement checks if the box that has been clicked matches the box that has changed colour.
+ * The first if statement is checking if the game is not active using a Logical Operator and the return stops any further actions.
+ * The next if statement checks if the timer has reached 0 and exists the function with the reutrn if it has.
+ * If the game is active and the timer is not at 0, the boxes will begin to change.
  * If the correct box is clicked, the increaseClicks function is called.
- * If user clicks on the wrong box the below message will appear
+ * If user clicks on the wrong box the below message will appear.
  */
 function changeBackground(boxId) {
     if (!gameActive) {
@@ -41,14 +44,16 @@ function changeBackground(boxId) {
             } else {
                 stopBoxes();
             }
-            console.log('box clicked');
         } else {
             clearInterval(colorChangeInterval);
             alert('Sorry Wrong Box, Try again!');
-            console.log('wrong box');
         }
     }
 }
+
+/** STOP BOXES
+ * This function clears the colourChangeInterval so that the boxes stop changing colour.
+ */
 
 function stopBoxes() {
     clearInterval(colorChangeInterval);
@@ -69,7 +74,8 @@ function randomColor() {
  * The randomBox will change colour, and calls the randomColor function written above.
  * The clear interval clears the previouis internal is stoped before starting a new one.
  * This was impliments so that the colours did not all change together.
- * An internvial is set to change the boxes every 2 seconds
+ * An internvial is set to change the boxes every 2 seconds.
+ * The final if statement checks if the timer is less than or = to 0 and resets the game.
  */
 function startGame() {
     changedBox = null;
@@ -93,13 +99,6 @@ function startGame() {
     }
 }
 
-/** STOP GAME
- * Once the reset button is clicked, the resetGame function will be called.
- */
-function stopGame() {
-    clearInterval(colorChangeInterval);
-}
-
 /** SCORE SECTION
  * This function changed the number of clicks by 1 each time the correct box is clicked.
  * Once the game timer is done, the number of clicks for that round will be added to the total clicks.
@@ -112,12 +111,11 @@ function increaseClicks() {
     totalClicks++;
     document.getElementById("total-clicks").innerText = totalClicks;
 }
-console.log('Add click');
-
 /** START GAME WITH CLICK
  * This function begins the game once the user clicks on the start game button.
  * It then also begins the timer once the button has been clicked.
- * Countdown timer to start once the start game button has been clicked
+ * Countdown timer to start once the start game button has been clicked.
+ * If the timer = 0 then the timers up words will appear.
  */
 
 let startButton = document.getElementById("start-game");
@@ -137,9 +135,9 @@ startButton.addEventListener("click", function () {
 
 
 /** RESET GAME
- * Clears the interval timer and resets clicks to 0 and the level to 1.
- * Returns clicks to 0 and level to 1.
- * Add previous clicks to total clicks
+ * Clears the colour change interval and coundDown timer.
+ * Resets clicks to 0 and the level to 1.
+ * Add previous clicks to total clicks.
  * Changes all the boxes back to pink (#e7014c)
  */
 
@@ -169,13 +167,11 @@ function addLevel() {
     let newLevel = currentLevel + 1;
     document.getElementById("level").innerText = newLevel;
 }
-console.log('add new level');
 
 /** RESET BUTTON
  * Once the reset button is clicked, the resetGame function will be called.
  */
 let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
-console.log('reset game');
 
 
