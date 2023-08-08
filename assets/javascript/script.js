@@ -47,6 +47,7 @@ function changeBackground(boxId) {
         } else {
             clearInterval(colorChangeInterval);
             alert('Sorry Wrong Box, Try again!');
+            missingBoxes();
         }
     }
 }
@@ -99,18 +100,6 @@ function startGame() {
     }
 }
 
-/** SCORE SECTION
- * This function changed the number of clicks by 1 each time the correct box is clicked.
- * Once the game timer is done, the number of clicks for that round will be added to the total clicks.
- */
-
-function increaseClicks() {
-    let currentClicks = parseInt(document.getElementById("clicks").innerText);
-    let newClicks = currentClicks + 1;
-    document.getElementById("clicks").innerText = newClicks;
-    totalClicks++;
-    document.getElementById("total-clicks").innerText = totalClicks;
-}
 /** START GAME WITH CLICK
  * This function begins the game once the user clicks on the start game button.
  * It then also begins the timer once the button has been clicked.
@@ -156,6 +145,31 @@ function resetGame() {
     for (let i = 0; i < allBoxes.length; i++) {
         allBoxes[i].style.backgroundColor = "#e7014c";
     }
+}
+
+
+/** INCREASE CLICKS
+ * This function changed the number of clicks by 1 each time the correct box is clicked.
+ * Once the game timer is done, the number of clicks for that round will be added to the total clicks.
+ */
+
+function increaseClicks() {
+    let currentClicks = parseInt(document.getElementById("clicks").innerText);
+    let newClicks = currentClicks + 1;
+    document.getElementById("clicks").innerText = newClicks;
+    totalClicks++;
+    document.getElementById("total-clicks").innerText = totalClicks;
+}
+
+/** INCREASE MISSING BOXES
+ * This function changed the number of clicks by 1 each time the correct box is clicked.
+ * Once the game timer is done, the number of clicks for that round will be added to the total clicks.
+ */
+
+function missingBoxes() {
+    let missedBox = parseInt(document.getElementById("missed").innerText);
+    let newMissedBox = missedBox + 1;
+    document.getElementById("missed").innerText = newMissedBox;
 }
 
 /** LEVEL
