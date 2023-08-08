@@ -205,9 +205,6 @@ li::before {
     justify-content: center;
     text-align: center;
     align-items: center;
-    border: #e7014c;
-    border-style: double;
-    border-radius: 30px;
     padding: 10px 10px 10px 10px;
     width: fit-content;
     margin: auto;
@@ -219,9 +216,6 @@ li::before {
     justify-content: center;
     text-align: center;
     align-items: center;
-    border: #e7014c;
-    border-style: double;
-    border-radius: 30px;
     padding: 10px 10px 10px 10px;
     width: fit-content;
     margin: auto;
