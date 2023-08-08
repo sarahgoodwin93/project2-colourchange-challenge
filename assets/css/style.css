@@ -165,6 +165,10 @@ li::before {
 
 /* Play Game */
 
+#game-grid {
+    padding-top: 20px;
+}
+
 .box {
     height: 100px;
     width: 100px;
@@ -218,6 +222,11 @@ li::before {
     width: fit-content;
     margin: auto;
     color: #e7014c;
+}
+
+#start-reset {
+    display: flex;
+    flex-direction: row;
 }
 
 .button:hover {

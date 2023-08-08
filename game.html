@@ -13,29 +13,12 @@
 <body>
     <!-- Head -->
     <header>
-        <a href="index.html" aria-label="Go to Homepage">
-            <h1 id="go-home">Home</h1>
-        </a>
-    </header>
 
-    <!-- Navigation buttons -->
-    <div id="homepage-buttons">
-        <div id="how-to-play">
-            <a href="how-to-play.html" aria-label="Go to Play Page">
-                <h1 class="play-buttons">How to Play</h1>
-            </a>
-        </div>
-        <div id="play-game">
-            <a href="game.html" aria-label="Go to Game Page">
-                <h1 class="play-buttons">Play Game</h1>
-            </a>
-        </div>
-    </div>
+    </header>
 
     <!-- Main -->
     <main>
-        <section>
-            <button id="start-game" class="button">Start Game</button>
+        <section id="game-grid">
             <div id="game-table">
                 <div id="row1">
                     <div id="one" class="box" onclick="changeBackground('one');" data-value="1"></div>
@@ -62,6 +45,10 @@
                     <div id="sixteen" class="box" onclick="changeBackground('sixteen');" data-value="16"></div>
                 </div>
             </div>
+            <div id="start-reset">
+                <button id="start-game" class="button">Start Game</button>
+                <button id="reset" class="button">Reset</button>
+            </div>
         </section>
         <section>
             <div class="countdown-timer">
@@ -77,10 +64,24 @@
                 <h2>Level:<span id="level"> 1</span></h2>
                 <br>
                 <h2>Total Clicks:<span id="total-clicks"> 0</span></h2>
-                <button id="reset" class="button">Reset</button>
             </div>
         </section>
     </main>
+
+
+    <!-- Navigation buttons -->
+    <div id="homepage-buttons">
+        <div id="how-to-play">
+            <a href="how-to-play.html" aria-label="Go to Play Page">
+                <h1 class="play-buttons">How to Play</h1>
+            </a>
+        </div>
+        <div id="play-game">
+            <a href="index.html" aria-label="Go to Homepage">
+                <h1 class="play-buttons">Home</h1>
+            </a>
+        </div>
+    </div>
 
     <!-- Footers -->
 
