@@ -144,7 +144,7 @@ The live link can be found here [Does It Match](https://sarahgoodwin93.github.io
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML5 wikipedia")
 - [CSS3](https://en.wikipedia.org/wiki/CSS "Link to CSS3 wikipedia")
-
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript "link to Javascript wikipedia")
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts webpage")
 - [Codeanywhere](https://app.codeanywhere.com/ "Link to Codeanywhere webpage")
   GitPod was used for writing code, adding, commiting and pushing to girhub

@@ -228,6 +228,10 @@ li::before {
     text-align: center;
 }
 
+#numbers h2 {
+    padding-right: 20px;
+}
+
 #start-reset {
     display: flex;
     flex-direction: row;
@@ -303,5 +307,16 @@ li::before {
         width: 60px;
         border-radius: 30px;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #numbers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #numbers h2 {
+        padding-right: 0px;
     }
 }
