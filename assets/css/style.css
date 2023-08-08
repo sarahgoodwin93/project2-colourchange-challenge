@@ -48,19 +48,32 @@ nav a {
     color: #e7014c;
 }
 
-#how-to-play {
+#how-to-play-button {
     display: flex;
     justify-content: center;
     padding-top: 30px;
 }
 
-#play-game {
+#home-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#play-game-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 30px;
 }
+
+.play-buttons {
+    border: 4px inset #ff9e1d;
+    border-radius: 7px 7px 7px 7px;
+}
+
+/* Game Buttons */
 
 #start-button {
     display: flex;
@@ -76,9 +89,24 @@ nav a {
     padding-top: 30px;
 }
 
-.play-buttons {
-    border: 4px inset #ff9e1d;
-    border-radius: 7px 7px 7px 7px;
+#reset {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    color: #e7014c;
+}
+
+#start-game {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    color: #e7014c;
 }
 
 /* Homepage */
@@ -101,7 +129,7 @@ nav a {
     width: 100%;
 }
 
-#home-box {
+#home-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,18 +162,7 @@ li::before {
     position: absolute;
 }
 
-#homepage-buttons-play {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    padding-top: 20px;
-}
+/* Boxes on how-to-play page */
 
 #instruction-boxes {
     display: flex;
@@ -168,7 +185,9 @@ li::before {
     background-color: #EB336F !important;
 }
 
-/* Play Game */
+/* Play Game Page */
+
+/* Grid */
 
 #game-grid {
     padding-top: 20px;
@@ -190,6 +209,8 @@ li::before {
     padding-bottom: 20px;
 }
 
+/* Score Section */
+
 .score {
     display: flex;
     justify-content: center;
@@ -200,26 +221,11 @@ li::before {
     flex-direction: column;
 }
 
-#reset {
+#numbers {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
-    width: fit-content;
-    margin: auto;
-    color: #e7014c;
-}
-
-#start-game {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
-    width: fit-content;
-    margin: auto;
-    color: #e7014c;
 }
 
 #start-reset {
@@ -231,6 +237,8 @@ li::before {
     background-color: #ff9e1d;
     color: white !important;
 }
+
+/* Timer */
 
 .countdown-timer {
     display: flex;
