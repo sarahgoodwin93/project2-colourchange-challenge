@@ -32,7 +32,11 @@ function changeBackground(boxId) {
         if (boxId === changedBox) {
             clearInterval(colorChangeInterval);
             increaseClicks();
-            startGame();
+            if (seconds > 0) {
+                startGame();
+            } else {
+                stopBoxes();
+            }
             console.log('box clicked');
         } else {
             clearInterval(colorChangeInterval);
@@ -54,7 +58,6 @@ function randomColor() {
     let randomColors = Math.floor(Math.random() * colors.length);
     return colors[randomColors];
 }
-
 
 /** START GAME FUNCTION
  * This function begins by making sure the changedBox is resert to null at the beginning of each round.
@@ -80,6 +83,9 @@ function startGame() {
         changedBox = allBoxes[randomBox].id;
         document.getElementById(changedBox).style.backgroundColor = randomColor();
     }, 2000);
+    if (seconds <= 0) {
+        resetGame();
+    }
 }
 
 /** STOP GAME
