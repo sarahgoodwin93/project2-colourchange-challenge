@@ -29,27 +29,29 @@ The target audience for this website is
 
 #### First time users
 
-1. As a first time user
-2. As a first time user
-3. As a first time user
+1. As a first time user I want clear game instrcutions with easy game play.
+2. As a first time user I want to be able to navigate the site quickly and easily.
+3. As a first time user I want to be able to see my scores increase to proivde motivation in the game. 
 
 #### Returning Users
 
-1. As a returning time user
-2. As a returning time user
-3. As a returning time user
+1. As a returning time user I want to be able to get better at the game and increase my scores.
+2. As a returning time user I want to be able to get in contact with the site creator in case I have questions
+3. As a returning time user I want have fun playing the game to improve my reaction times.
 
 #### Reaction Times
 
-1. As someone who wishes to improve their reaction time
-2. As someone who wishes to improve their reaction time
-3. As someone who wishes to improve their reaction time
+1. As someone who wishes to improve their reaction time I want to be able to clearly see the timer so I can try to get as many clicks as possible within the timeframe
+2. As someone who wishes to improve their reaction time I want to be able to clearly see my scores increase and know when I have missed a box.
+3. As someone who wishes to improve their reaction time I want to see if new levels have been added so I can try to continue to improve.
 
 ## Design
 
 <https://visme.co/blog/pastel-colors/>
 
 ### Colour Scheme
+
+The colour scheme was chosen to look like an 80s retro game
 
 ### Wire frames
 
