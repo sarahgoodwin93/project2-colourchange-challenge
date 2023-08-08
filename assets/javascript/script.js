@@ -110,6 +110,8 @@ function startGame() {
 
 let startButton = document.getElementById("start-game");
 startButton.addEventListener("click", function () {
+    click = 0;
+    document.getElementById("clicks").innerText = 0;
     startGame();
     gameActive = true;
     countDown = setInterval(function () {
@@ -134,13 +136,11 @@ startButton.addEventListener("click", function () {
 function resetGame() {
     clearInterval(colorChangeInterval);
     clearInterval(countDown);
-    clicks = 0;
     level = 1;
     missed = 0;
     seconds = 10;
     timer = 10;
     gameActive = false;
-    document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
     document.getElementById("missed").innerText = 0;
     document.getElementById("timer").innerText = seconds;
