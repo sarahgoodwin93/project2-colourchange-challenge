@@ -12,7 +12,7 @@ let totalClicks = 0;
 /** COLOUR ARRAY
  * List of colours that the game can choose from to keep the site design with pastel colours
  */
-let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6",
+let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd01", "#bffcc6",
     "#ffabab", "#ff9cee", "#ffcf9", "#b28dff", "#c4faf8", "#fff5ba", "#ffbebc"];
 
 
