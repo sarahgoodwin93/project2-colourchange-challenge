@@ -233,11 +233,6 @@ li::before {
     flex-direction: row;
 }
 
-.button:hover {
-    background-color: #ff9e1d;
-    color: white !important;
-}
-
 /* Timer */
 
 .countdown-timer {
