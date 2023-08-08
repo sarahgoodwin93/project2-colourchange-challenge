@@ -12,8 +12,8 @@ let totalClicks = 0;
 /** COLOUR ARRAY
  * List of colours that the game can choose from to keep the site design with pastel colours
  */
-let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd01", "#bffcc6",
-    "#ffabab", "#ff9cee", "#ffcf9", "#b28dff", "#c4faf8", "#fff5ba", "#ffbebc"];
+let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#faf99d", "#bffcc6",
+    "#ffabab", "#ff9cee", "#ffcf9e", "#b28dff", "#c4faf8", "#fff5ba", "#ffbebc", "#c4faf8"];
 
 
 /** WHICH BOX HAS CHANGED
@@ -22,6 +22,9 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd01", "#bffcc6",
  * If user clicks on the wrong box the below message will appear
  */
 function changeBackground(boxId) {
+    if (seconds < 0) {
+        return;
+    }
     if (intervalId) {
         if (boxId === changedBox) {
             clearInterval(intervalId);
