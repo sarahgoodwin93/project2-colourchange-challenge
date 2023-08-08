@@ -7,6 +7,7 @@ let clicks = 0;
 let seconds = 20;
 let countDown;
 let totalClicks = 0;
+let timer = 20;
 
 
 /** COLOUR ARRAY
@@ -66,6 +67,7 @@ function startGame() {
     let randomBox = Math.floor(Math.random() * allBoxes.length);
     changedBox = allBoxes[randomBox].id;
     document.getElementById(changedBox).style.backgroundColor = randomColor();
+
     clearInterval(intervalId);
     intervalId = setInterval(function () {
         let randomBox = Math.floor(Math.random() * allBoxes.length);
@@ -107,7 +109,7 @@ startButton.addEventListener("click", function () {
         }
     }, 1000);
 });
-console.log('start game');
+
 
 /** RESET GAME
  * Clears the interval timer and resets clicks to 0 and the level to 1.
@@ -122,8 +124,10 @@ function resetGame() {
     clicks = 0;
     level = 1;
     seconds = 20;
+    timer = 20;
     document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
+    document.getElementById("timer").innerText = seconds;
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
         allBoxes[i].style.backgroundColor = "#e7014c";
