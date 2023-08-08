@@ -22,15 +22,17 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#fffd1", "#bffcc6",
  * If user clicks on the wrong box the below message will appear
  */
 function changeBackground(boxId) {
-    if (boxId === changedBox) {
-        clearInterval(intervalId);
-        increaseClicks();
-        startGame();
-        console.log('box clicked');
-    } else {
-        clearInterval(intervalId);
-        alert('Sorry Wrong Box, Try again!');
-        console.log('wrong box');
+    if (intervalId) {
+        if (boxId === changedBox) {
+            clearInterval(intervalId);
+            increaseClicks();
+            startGame();
+            console.log('box clicked');
+        } else {
+            clearInterval(intervalId);
+            alert('Sorry Wrong Box, Try again!');
+            console.log('wrong box');
+        }
     }
 }
 
