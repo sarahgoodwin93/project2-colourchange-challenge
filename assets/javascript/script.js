@@ -1,13 +1,14 @@
 // Variables
 
-let intervalId;
+let colorChangeInterval;
+let countDownInterval;
 let changedBox = null;
 let level = 1;
 let clicks = 0;
-let seconds = 20;
+let seconds = 10;
 let countDown;
 let totalClicks = 0;
-let timer = 20;
+let timer = 10;
 
 
 /** COLOUR ARRAY
@@ -24,20 +25,25 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#faf99d", "#bffcc6",
  */
 function changeBackground(boxId) {
     if (seconds < 0) {
+        stopBoxes();
         return;
     }
-    if (intervalId) {
+    if (colorChangeInterval) {
         if (boxId === changedBox) {
-            clearInterval(intervalId);
+            clearInterval(colorChangeInterval);
             increaseClicks();
             startGame();
             console.log('box clicked');
         } else {
-            clearInterval(intervalId);
+            clearInterval(colorChangeInterval);
             alert('Sorry Wrong Box, Try again!');
             console.log('wrong box');
         }
     }
+}
+
+function stopBoxes() {
+    clearInterval(colorChangeInterval);
 }
 
 /** RANDOM COLOURS
@@ -68,12 +74,19 @@ function startGame() {
     changedBox = allBoxes[randomBox].id;
     document.getElementById(changedBox).style.backgroundColor = randomColor();
 
-    clearInterval(intervalId);
-    intervalId = setInterval(function () {
+    clearInterval(colorChangeInterval);
+    colorChangeInterval = setInterval(function () {
         let randomBox = Math.floor(Math.random() * allBoxes.length);
         changedBox = allBoxes[randomBox].id;
         document.getElementById(changedBox).style.backgroundColor = randomColor();
     }, 2000);
+}
+
+/** STOP GAME
+ * Once the reset button is clicked, the resetGame function will be called.
+ */
+function stopGame() {
+    clearInterval(colorChangeInterval);
 }
 
 /** SCORE SECTION
@@ -119,12 +132,12 @@ startButton.addEventListener("click", function () {
  */
 
 function resetGame() {
-    clearInterval(intervalId);
+    clearInterval(colorChangeInterval);
     clearInterval(countDown);
     clicks = 0;
     level = 1;
-    seconds = 20;
-    timer = 20;
+    seconds = 10;
+    timer = 10;
     document.getElementById("clicks").innerText = 0;
     document.getElementById("level").innerText = level;
     document.getElementById("timer").innerText = seconds;
@@ -151,6 +164,5 @@ console.log('add new level');
 let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
 console.log('reset game');
-
 
 
