@@ -1,4 +1,4 @@
-# [ColourChange Challenge](https://sarahgoodwin93.github.io/project2-colourchange-challenge/ "Link to Does It Match Webpage")
+[ColourChange Challenge](https://sarahgoodwin93.github.io/project2-colourchange-challenge/ "Link to Does It Match Webpage")
 
 The ColourChange Challenge is a game to test your speed and reactions.
 Users clicks will be counted, the faster they click, the more they will score!
@@ -11,55 +11,49 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
 
 ![Responsive Image](assets/images/readme-images/am-i-responsive.png "am I responsive screenshot image")
 
-# Table of Contents
-
-- - [ColourChange Challenge](#colourchange-challenge)
-
-- [ColourChange Challenge](#colourchange-challenge)
-- [Table of Contents](#table-of-contents)
-  - [Key Project Goals](#key-project-goals)
-    - [Target Audience](#target-audience)
-    - [User Stories](#user-stories)
-      - [First time users](#first-time-users)
-      - [Returning Users](#returning-users)
-      - [Reaction Times](#reaction-times)
-  - [Design](#design)
-    - [Colour Scheme](#colour-scheme)
-    - [Wire frames](#wire-frames)
-    - [Typography](#typography)
-  - [Features](#features)
-    - [Navigation](#navigation)
-    - [Hero Image](#hero-image)
-    - [Home](#home)
-    - [How to Play](#how-to-play)
-    - [Play Game](#play-game)
-    - [The Footer](#the-footer)
-    - [Features Left to Implement](#features-left-to-implement)
-  - [Testing](#testing)
-    - [Manual Testing](#manual-testing)
-      - [Laptops](#laptops)
-      - [Desktop](#desktop)
-      - [Mobile](#mobile)
-      - [Browsers](#browsers)
-    - [Validator Testing](#validator-testing)
-      - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
-    - [Lighthouse scores](#lighthouse-scores)
-    - [Mobile and iPad Testing Comments](#mobile-and-ipad-testing-comments)
-    - [Nav Bar Testing Comments](#nav-bar-testing-comments)
-    - [Other Testing Comments](#other-testing-comments)
-    - [Unfixed Bugs](#unfixed-bugs)
-  - [Deployment](#deployment)
-    - [Deploying on GitHub Pages](#deploying-on-github-pages)
-  - [Technologies Used](#technologies-used)
-  - [Credits](#credits)
-    - [Specific sources](#specific-sources)
-    - [Content](#content)
-    - [Images](#images)
-    - [Education](#education)
-    - [Game Journey](#game-journey)
-  - [Game idea 1](#game-idea-1)
-  - [Game idea 2](#game-idea-2)
-  - [Game idea 3](#game-idea-3)
+- [Key Project Goals](#key-project-goals)
+  - [Target Audience](#target-audience)
+  - [User Stories](#user-stories)
+    - [First time users](#first-time-users)
+    - [Returning Users](#returning-users)
+    - [Reaction Times](#reaction-times)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Wire frames](#wire-frames)
+  - [Typography](#typography)
+- [Features](#features)
+  - [Navigation](#navigation)
+  - [Hero Image](#hero-image)
+  - [Home](#home)
+  - [How to Play](#how-to-play)
+  - [Play Game](#play-game)
+  - [The Footer](#the-footer)
+  - [Features Left to Implement](#features-left-to-implement)
+- [Testing](#testing)
+  - [Manual Testing](#manual-testing)
+    - [Laptops](#laptops)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+    - [Browsers](#browsers)
+  - [Validator Testing](#validator-testing)
+    - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
+  - [Lighthouse scores](#lighthouse-scores)
+  - [Mobile and iPad Testing Comments](#mobile-and-ipad-testing-comments)
+  - [Nav Bar Testing Comments](#nav-bar-testing-comments)
+  - [Other Testing Comments](#other-testing-comments)
+  - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+  - [Deploying on GitHub Pages](#deploying-on-github-pages)
+- [Technologies Used](#technologies-used)
+- [Credits](#credits)
+  - [Specific sources](#specific-sources)
+  - [Content](#content)
+  - [Images](#images)
+  - [Education](#education)
+  - [Game Journey](#game-journey)
+- [Game idea 1](#game-idea-1)
+- [Game idea 2](#game-idea-2)
+- [Game idea 3](#game-idea-3)
 
 ## Key Project Goals
 
@@ -97,23 +91,25 @@ The target audience for this website is
 
 ## Design
 
-<https://visme.co/blog/pastel-colors/>
-
 ### Colour Scheme
 
-The colour scheme was chosen to look like a retro game, bright bold and vibrant colours were chosen for the logo and buttons - #e7014c, #ff9e1d.
+The colour scheme was chosen to look like a retro game, bright bold and vibrant colours were chosen for the logo and buttons - {#e7014c}, {#ff9e1d}.
 ![Hex Colours](assets/images/readme-images/colour-hex.png "#e7014 and #ff9e1 colour hex codes")
 
-A pastel background was chosen to make the main colours pop, #ffd5e2
+A pastel background was chosen to make the main colours pop, {#ffd5e2}
 ![Hex Colours](assets/images/readme-images/colour-ffd5e2.png "#ffd5e2 colour hex code")
 
-Within the boxes the colours are also pastel to show a stark difference between the main pink - #e7014c.
-These colours were chosen from ![Visme](https://visme.co/blog/pastel-colors/ "link to visme website")
+Within the boxes the colours are also pastel to show a stark difference between the main pink - {#e7014c}.
+These colours were chosen from [Visme](https://visme.co/blog/pastel-colors/ "link to visme website")
 ![Pastel Colours](assets/images/readme-images/visme-colours.png "pastel colour hex codes")
 
 ### Wire frames
 
 ### Typography
+
+The font [Tektur](https://fonts.google.com/specimen/Tektur "link to Tektur google font") was used throughout the side to give it a arcade game type feel. It's octagonal outlines and rectangular style fit within the retro design for the game.
+
+Sans-Serif has been applied as a back-up in case of import failure.
 
 ## Features
 
