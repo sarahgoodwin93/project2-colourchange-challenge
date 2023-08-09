@@ -45,7 +45,7 @@ function changeBackground(boxId) {
             }
         } else {
             clearInterval(colorChangeInterval);
-            alert('Sorry Wrong Box, Try again!');
+            alert('You missed this box! Try the next one to keep playing');
             missingBoxes();
         }
     }
