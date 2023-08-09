@@ -317,6 +317,7 @@ The ColourChange Challenge site was tested on the following devices:
 ![HTML Validator Play Game Page](assets/images/readme-images/footer.png "w3 validator play game image")
 
 </details>
+</details>
 
 ### W3C - CSS Validator
 
@@ -338,7 +339,7 @@ The ColourChange Challenge site was tested on the following devices:
 
 ### Errors that were found in validator and fixed
 
-- Warning - Consider using the h1 element as a top-level heading only 
+- Warning - Consider using the h1 element as a top-level heading only
 - Missing px one .box class
 
 ## Lighthouse scores
@@ -351,32 +352,32 @@ The ColourChange Challenge site was tested on the following devices:
 
 ## Mobile and iPad Testing Comments
 
-| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
-| -------- | ---------- | --------------- | ---------- | ------- |
-| Home page (mobile) | Samsung 22 Ultra Android | Elements look good on android | Works as expected|N/A|
-| How to play page (mobile)|Samsung 22 Ultra Android | Elements look good on android | Works as expected|N/A|
-| Play Game (mobile)|Samsung 22 Ultra Android | Game buttons looked off / unfinished | Design not complete | Media query to stack game buttons|
-| Home page (ipad) | Size to 1024px using Chrome Dev Tools | Elements look good on ipad | Works as expected|N/A|
-| How to play page (ipad)|Size to 1024px using Chrome Dev Tools| Elements look good on ipad | Works as expected|N/A|
-| Play Game (ipad)|Size to 1024px using Chrome Dev Tools | Elements look good on ipad | Works as expected|N/A|
+| **TEST**                  | **ACTION**                            | **EXPECTATION**                      | **RESULT**          | **FIX**                           |
+| ------------------------- | ------------------------------------- | ------------------------------------ | ------------------- | --------------------------------- |
+| Home page (mobile)        | Samsung 22 Ultra Android              | Elements look good on android        | Works as expected   | N/A                               |
+| How to play page (mobile) | Samsung 22 Ultra Android              | Elements look good on android        | Works as expected   | N/A                               |
+| Play Game (mobile)        | Samsung 22 Ultra Android              | Game buttons looked off / unfinished | Design not complete | Media query to stack game buttons |
+| Home page (ipad)          | Size to 1024px using Chrome Dev Tools | Elements look good on ipad           | Works as expected   | N/A                               |
+| How to play page (ipad)   | Size to 1024px using Chrome Dev Tools | Elements look good on ipad           | Works as expected   | N/A                               |
+| Play Game (ipad)          | Size to 1024px using Chrome Dev Tools | Elements look good on ipad           | Works as expected   | N/A                               |
 
 ## Nav Bar Testing Comments
 
-| **TEST**          | **ACTION**        | **EXPECTATION**                                            | **RESULT**        | **FIX** |
-| ----------------- | ----------------- | ---------------------------------------------------------- | ----------------- | ------- |
-| Nav Buttons - home    | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
-| Nav Butotns - how to play   | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
-| Nav Buttons - play game    | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
+| **TEST**                  | **ACTION**        | **EXPECTATION**                                            | **RESULT**        | **FIX** |
+| ------------------------- | ----------------- | ---------------------------------------------------------- | ----------------- | ------- |
+| Nav Buttons - home        | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
+| Nav Butotns - how to play | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
+| Nav Buttons - play game   | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
 
 ## Other Testing Comments
 
-| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
-| -------- | ---------- | --------------- | ---------- | ------- |
-| Footer   | Clicked on linkedin button | Took me to Sarah Goodwin linkedin profile| Worked as expected| N/A|
-| Footer   | Clicked on Github button | Took me to Sarah Goodwin github page| Worked as expected| N/A|
-| Start Game button   | Clicked on button | Game started on level 1 speed | Worked as expected| N/A|
-| Next Level button   | Clicked on button | Game started on level 2 speed | Worked as expected| N/A|
-| Reset button   | Clicked on button during game | Game reset to beginning | Worked as expected| N/A|
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+| Footer            | Clicked on linkedin button    | Took me to Sarah Goodwin linkedin profile | Worked as expected | N/A     |
+| Footer            | Clicked on Github button      | Took me to Sarah Goodwin github page      | Worked as expected | N/A     |
+| Start Game button | Clicked on button             | Game started on level 1 speed             | Worked as expected | N/A     |
+| Next Level button | Clicked on button             | Game started on level 2 speed             | Worked as expected | N/A     |
+| Reset button      | Clicked on button during game | Game reset to beginning                   | Worked as expected | N/A     |
 
 ## Unfixed Bugs
 
