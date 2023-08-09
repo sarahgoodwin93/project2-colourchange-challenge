@@ -1,7 +1,6 @@
 // Variables
 
 let colorChangeInterval;
-let countDownInterval;
 let changedBox = null;
 let level = 1;
 let clicks = 0;
@@ -18,7 +17,6 @@ let gameActive = false;
  */
 let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#faf99d", "#bffcc6",
     "#ffabab", "#ff9cee", "#ffcf9e", "#b28dff", "#c4faf8", "#fff5ba", "#ffbebc", "#c4faf8"];
-
 
 /** WHICH BOX HAS CHANGED
  * This if statement checks if the box that has been clicked matches the box that has changed colour.
@@ -110,7 +108,7 @@ function startGame() {
 
 let startButton = document.getElementById("start-game");
 startButton.addEventListener("click", function () {
-    click = 0;
+    clicks = 0;
     document.getElementById("clicks").innerText = 0;
     startGame();
     gameActive = true;
@@ -175,6 +173,20 @@ function missingBoxes() {
     document.getElementById("missed").innerText = newMissedBox;
 }
 
+/** RESET BUTTON
+ * Once the reset button is clicked, the resetGame function will be called.
+ */
+let resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", resetGame);
+
+/** LEVEL TWO
+ * 
+ */
+
+function levelTwo() {
+
+}
+
 /** LEVEL
  * Increase the level by 1
  */
@@ -184,11 +196,3 @@ function addLevel() {
     let newLevel = currentLevel + 1;
     document.getElementById("level").innerText = newLevel;
 }
-
-/** RESET BUTTON
- * Once the reset button is clicked, the resetGame function will be called.
- */
-let resetButton = document.getElementById("reset");
-resetButton.addEventListener("click", resetGame);
-
-
