@@ -101,7 +101,7 @@ The colour scheme was chosen to look like a retro game, bright bold and vibrant 
 
 A pastel background was chosen to make the main colours pop, {#ffd5e2}
 
-![Hex Colours](assets/images/readme-images/colour-hex.png "#e7014 and #ff9e1 colour hex codes")
+![Hex Colours](assets/images/readme-images/main-colours.png "#e7014, #ff9e1 and #ffd5e2 colour hex codes")
 
 Within the boxes the colours are also pastel to show a stark difference between the main pink - {#e7014c}.
 These colours were chosen from [Visme](https://visme.co/blog/pastel-colors/ "link to visme website")
