@@ -343,25 +343,44 @@ The ColourChange Challenge site was tested on the following devices:
 
 ## Lighthouse scores
 
+![Lighthouse score home](assets/readme-img/lighthouse-home.png "Lighthouse score home image")
+
+![Lighthouse score how to play](assets/readme-img/lighthouse-how.png "Lighthouse score how to play image")
+
+![Lighthouse score play game](assets/readme-img/lighthouse-play.png "Lighthouse score play game image")
+
 ## Mobile and iPad Testing Comments
 
 | **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
 | -------- | ---------- | --------------- | ---------- | ------- |
-|          |            |                 |            |         |
+| Home page (mobile) | Samsung 22 Ultra Android | Elements look good on android | Works as expected|N/A|
+| How to play page (mobile)|Samsung 22 Ultra Android | Elements look good on android | Works as expected|N/A|
+| Play Game (mobile)|Samsung 22 Ultra Android | Game buttons looked off / unfinished | Design not complete | Media query to stack game buttons|
+| Home page (ipad) | Size to 1024px using Chrome Dev Tools | Elements look good on ipad | Works as expected|N/A|
+| How to play page (ipad)|Size to 1024px using Chrome Dev Tools| Elements look good on ipad | Works as expected|N/A|
+| Play Game (ipad)|Size to 1024px using Chrome Dev Tools | Elements look good on ipad | Works as expected|N/A|
 
 ## Nav Bar Testing Comments
 
-| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
-| -------- | ---------- | --------------- | ---------- | ------- |
-|          |            |                 |            |         |
+| **TEST**          | **ACTION**        | **EXPECTATION**                                            | **RESULT**        | **FIX** |
+| ----------------- | ----------------- | ---------------------------------------------------------- | ----------------- | ------- |
+| Nav Buttons - home    | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
+| Nav Butotns - how to play   | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
+| Nav Buttons - play game    | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
 
 ## Other Testing Comments
 
 | **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
 | -------- | ---------- | --------------- | ---------- | ------- |
-|          |            |                 |            |         |
+| Footer   | Clicked on linkedin button | Took me to Sarah Goodwin linkedin profile| Worked as expected| N/A|
+| Footer   | Clicked on Github button | Took me to Sarah Goodwin github page| Worked as expected| N/A|
+| Start Game button   | Clicked on button | Game started on level 1 speed | Worked as expected| N/A|
+| Next Level button   | Clicked on button | Game started on level 2 speed | Worked as expected| N/A|
+| Reset button   | Clicked on button during game | Game reset to beginning | Worked as expected| N/A|
 
 ## Unfixed Bugs
+
+No bugs to report
 
 # Deployment
 
@@ -377,14 +396,14 @@ To deploy this page to GitHub Pages from its Codeanywhere repository, the follow
 4. Close README tab and create first file named index.html
 5. Press ! TAB to create <!DOCTYPE html>
 6. Open terminal, type (git add .) (git commit -m "initial commit") (git push)
-7. Locate the [GitHub Repository](https://github.com/sarahgoodwin93/does-it-match.git "Link to The Hike Site Repo") for Does It Match.
+7. Locate the [GitHub Repository](https://github.com/sarahgoodwin93/project2-colourchange-challenge "Link to The ColourChange Challenge") for ColourChange Challenge.
 8. At the top of the repository, select Settings from the menu items.
 9. On the side bar menu under 'Code and automation', click on "Pages"
 10. Change 'Branch' from "None" to "main", press 'Save'
 11. Once saved, wait a few minutes for page to deploy
 12. Navigate back to "Pages" and here you will find your deployed link.
 
-The live link can be found here [Does It Match](https://sarahgoodwin93.github.io/does-it-match/ "Link to deployed Does It Match")
+The live link can be found here [ColourChange Challenge](https://sarahgoodwin93.github.io/project2-colourchange-challenge/index.html "Link to deployed ColourChange Challenge")
 
 # Technologies Used
 
@@ -393,14 +412,12 @@ The live link can be found here [Does It Match](https://sarahgoodwin93.github.io
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript "link to Javascript wikipedia")
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts webpage")
 - [Codeanywhere](https://app.codeanywhere.com/ "Link to Codeanywhere webpage")
-  GitPod was used for writing code, adding, commiting and pushing to girhub
+  GitPod was used for writing code, adding, commiting and pushing to github
 - [GitHub](https://github.com/ "Link to GitHub webpage")
   GitHub was used to store the code files, README files and asset files after pushing
-- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq webpage")
-
+- [Figma](https://www.figma.com/?fuid= "link to figma homepage")
 - [Canva](https://www.canva.com/en_gb/login/ "Link to Canva webpage")
   Canva Pro was used to create images for the site
-
 - [Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I responsive webpage")
   Am I Responsive was used in order to see responsive design and create screenshots of the final page on different devices.
 
