@@ -159,6 +159,8 @@ The homepage is a simple design offering a large logo image of the game grid, an
 
 A simple design was chosen so that users have a clear action path, either to read the game instrctuion or to so straight to the game play.
 
+It is responsive on both desktop and mobile.
+
 ![Homepage Image](assets/images/readme-images/home-page.png "Screenshot of homepage on mobile laptop and mobile screens")
 
 ## How to Play
@@ -247,9 +249,17 @@ The total clicks will go back to 0 once a new game is started by either pressing
 
 ![Scores](assets/images/readme-images/scores.png "Screenshot of scores")
 
+The Game Grid is responsive on both desktop and mobile.
+
+![Play Game Image](assets/images/readme-images/game.png "Screenshot of homepage on mobile laptop and mobile screens")
+
 ## The Footer
 
-![Footer screenshot]( "Screenshot of Footer")
+The footer shows who made the game, Sarah Goodwin, that it is copywritted and that it is part of Project 2 for the Codi Institute.
+
+It also has links to Sarah's Github and Linkedin profiles should you wish to contact her
+
+![Footer screenshot](assets/images/readme-images/footer.png "Screenshot of Footer")
 
 # Features Left to Implement
 
