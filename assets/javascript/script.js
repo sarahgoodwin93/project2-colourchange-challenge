@@ -184,8 +184,17 @@ resetButton.addEventListener("click", resetGame);
  */
 
 function levelTwo() {
-
+    clearInterval(colorChangeInterval);
+    addLevel();
+    startGame(1000);
 }
+
+/** NEXT LEVEL BUTTON
+ * 
+ */
+
+let nextLevelButton = document.getElementById("next-level");
+nextLevelButton.addEventListener("click", levelTwo);
 
 /** LEVEL
  * Increase the level by 1
