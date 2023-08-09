@@ -153,6 +153,11 @@ A simple design was chosen so that users have a clear action path, either to rea
 
 ## How to Play
 
+The How to play page has the game instructions, as well as navigation buttons for the home and game pages.
+The theme of the boxes has been added to the page to keep design continuity, while added a different look to the logo and game grid. In the static box image you can see one of the boxes is a different shade of pink to the main {#e7014c} colour, which gives an insight into future levels of the game.
+
+
+
 ## Play Game
 
 ## The Footer
