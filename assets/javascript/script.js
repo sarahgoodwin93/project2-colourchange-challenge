@@ -138,11 +138,9 @@ function resetGame() {
     timer = 10;
     clicks = 0;
     missed = 0;
-    totalClicks = 0;
     gameActive = false;
     document.getElementById("clicks").innerText = 0;
     document.getElementById("missed").innerText = 0;
-    document.getElementById("total-clicks").innerText = 0;
     document.getElementById("timer").innerText = "00:00";
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
