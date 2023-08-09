@@ -2,7 +2,6 @@
 
 let colorChangeInterval;
 let changedBox = null;
-let level = 1;
 let clicks = 0;
 let missed = 0;
 let seconds = 10;
@@ -136,13 +135,9 @@ startButton.addEventListener("click", function () {
 function resetGame() {
     clearInterval(colorChangeInterval);
     clearInterval(countDown);
-    level = 1;
-    missed = 0;
     seconds = 10;
     timer = 10;
     gameActive = false;
-    document.getElementById("level").innerText = level;
-    document.getElementById("missed").innerText = 0;
     document.getElementById("timer").innerText = seconds;
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
@@ -160,7 +155,7 @@ function increaseClicks() {
     let currentClicks = parseInt(document.getElementById("clicks").innerText);
     let newClicks = currentClicks + 1;
     document.getElementById("clicks").innerText = newClicks;
-    totalClicks++;
+    totalClicks = newClicks - parseInt(document.getElementById("missed").innerText);
     document.getElementById("total-clicks").innerText = totalClicks;
 }
 
@@ -180,4 +175,5 @@ function missingBoxes() {
  */
 let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
+
 
