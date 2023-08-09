@@ -20,7 +20,7 @@ let gameSpeed = levelOneSpeed;
 let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#faf99d", "#bffcc6",
     "#ffabab", "#ff9cee", "#ffcf9e", "#b28dff", "#c4faf8", "#fff5ba", "#ffbebc", "#c4faf8"];
 
-/** WHICH BOX HAS CHANGED
+/** BOX HAS BEEN CLICKED
  * This if statement checks if the box that has been clicked matches the box that has changed colour.
  * The first if statement is checking if the game is not active using a Logical Operator and the return stops any further actions.
  * The next if statement checks if the timer has reached 0 and exists the function with the reutrn if it has.
@@ -181,31 +181,3 @@ function missingBoxes() {
 let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
 
-/** LEVEL TWO
- * 
- */
-
-function levelTwo() {
-    clearInterval(colorChangeInterval);
-    gameSpeed = 1000;
-    addLevel();
-    changeBackground();
-    startGame();
-}
-
-/** NEXT LEVEL BUTTON
- * 
- */
-
-let nextLevelButton = document.getElementById("next-level");
-nextLevelButton.addEventListener("click", levelTwo);
-
-/** LEVEL
- * Increase the level by 1
- */
-
-function addLevel() {
-    let currentLevel = parseInt(document.getElementById("level").innerText);
-    let newLevel = currentLevel + 1;
-    document.getElementById("level").innerText = newLevel;
-}
