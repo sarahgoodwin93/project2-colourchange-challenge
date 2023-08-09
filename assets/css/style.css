@@ -177,7 +177,7 @@ li::before {
     width: 100px;
     border-radius: 30px;
     background-color: #e7014c;
-    padding: 10x 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     margin: 5px;
 }
 
@@ -198,7 +198,7 @@ li::before {
     width: 100px;
     border-radius: 30px;
     background-color: #e7014c;
-    padding: 10x 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     margin: 5px;
 }
 
@@ -287,7 +287,7 @@ li::before {
 
 /* Media Query for mobile max width 768 */
 
-@media (max-width: 780) {
+@media (max-width: 780px) {
     #logo-img {
         width: 80%;
         height: auto;
