@@ -98,10 +98,10 @@ The target audience for this website is
 ## Colour Scheme
 
 The colour scheme was chosen to look like a retro game, bright bold and vibrant colours were chosen for the logo and buttons - {#e7014c}, {#ff9e1d}.
-![Hex Colours](assets/images/readme-images/colour-hex.png "#e7014 and #ff9e1 colour hex codes")
 
 A pastel background was chosen to make the main colours pop, {#ffd5e2}
-![Hex Colours](assets/images/readme-images/colour-ffd5e2.png "#ffd5e2 colour hex code")
+
+![Hex Colours](assets/images/readme-images/colour-hex.png "#e7014 and #ff9e1 colour hex codes")
 
 Within the boxes the colours are also pastel to show a stark difference between the main pink - {#e7014c}.
 These colours were chosen from [Visme](https://visme.co/blog/pastel-colors/ "link to visme website")
