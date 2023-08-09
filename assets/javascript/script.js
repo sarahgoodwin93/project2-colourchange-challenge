@@ -10,6 +10,8 @@ let countDown;
 let totalClicks = 0;
 let timer = 10;
 let gameActive = false;
+let levelOneSpeed = 2000;
+let gameSpeed = levelOneSpeed;
 
 
 /** COLOUR ARRAY
@@ -92,7 +94,7 @@ function startGame() {
         let randomBox = Math.floor(Math.random() * allBoxes.length);
         changedBox = allBoxes[randomBox].id;
         document.getElementById(changedBox).style.backgroundColor = randomColor();
-    }, 2000);
+    }, gameSpeed);
     if (seconds <= 0) {
         resetGame();
         return;
@@ -185,8 +187,10 @@ resetButton.addEventListener("click", resetGame);
 
 function levelTwo() {
     clearInterval(colorChangeInterval);
+    gameSpeed = 1000;
     addLevel();
-    startGame(1000);
+    changeBackground();
+    startGame();
 }
 
 /** NEXT LEVEL BUTTON
