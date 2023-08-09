@@ -317,7 +317,6 @@ The ColourChange Challenge site was tested on the following devices:
 ![HTML Validator Play Game Page](assets/readme-img/.png "w3 validator play game image")
 
 </details>
-<details>
 
 ### W3C - CSS Validator
 
