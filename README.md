@@ -301,20 +301,20 @@ The ColourChange Challenge site was tested on the following devices:
 <details>
 <summary>Homepage</summary>
 
-![HTML Validator Homepage](assets/readme-img/.png "w3 validator homepage image")
+![HTML Validator Homepage](assets/images/readme-images/home-valid.png "w3 validator homepage image")
 
 </details>
 <details>
 <summary>How To Play Page</summary>
 
-![HTML Validator How to play page](assets/readme-img/.png "w3 validator how to play page image")
+![HTML Validator How to play page](assets/images/readme-images/how-to-play-valid.png "w3 validator how to play page image")
 
 </details>
 <details>
 
 <summary>Play Game Page</summary>
 
-![HTML Validator Play Game Page](assets/readme-img/.png "w3 validator play game image")
+![HTML Validator Play Game Page](assets/images/readme-images/footer.png "w3 validator play game image")
 
 </details>
 
@@ -323,7 +323,7 @@ The ColourChange Challenge site was tested on the following devices:
 <details>
 <summary>CSS - Please see screenshot of CSS Jigsaw validator</summary>
 
-![CSS Validator](assets/readme-img/.png "Css valid image")
+![CSS Validator](assets/images/readme-images/css-valid.png "Css valid image")
 
 </details>
 
@@ -332,12 +332,14 @@ The ColourChange Challenge site was tested on the following devices:
 <details>
 <summary>Javascript - Please see screenshot of JS Hint validator</summary>
 
-![CSS Validator](assets/readme-img/.png "JS valid image")
+![CSS Validator](assets/images/readme-images/js-hint.png "JS valid image")
 
 </details>
 
-
 ### Errors that were found in validator and fixed
+
+- Warning - Consider using the h1 element as a top-level heading only 
+- Missing px one .box class
 
 ## Lighthouse scores
 
