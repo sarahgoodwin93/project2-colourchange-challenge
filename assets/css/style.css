@@ -142,11 +142,12 @@ nav a {
     color: #e7014c;
 }
 
-#how-to-play-list {
+.how-to-play-list {
     list-style: none;
     padding: 0;
     position: relative;
     margin: 10px 0;
+    font-size: 20px
 }
 
 li::before {
