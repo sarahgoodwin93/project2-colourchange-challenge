@@ -38,6 +38,9 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
       - [Next Level](#next-level)
       - [Reset Button](#reset-button)
     - [Score Section](#score-section)
+      - [Clicks](#clicks)
+      - [Missed Boxews](#missed-boxews)
+      - [Total Clicks](#total-clicks)
   - [The Footer](#the-footer)
 - [Features Left to Implement](#features-left-to-implement)
 - [Testing](#testing)
@@ -192,24 +195,25 @@ The boxes run through the specified array of colours to keep in theme of the des
 
 If the user clicks on the correct box, the number of clicks will increase, as will the total clicks.
 
-If i user clicks on the wrong box the alert will appear to let them know that they will need to click on the next box to keep the game going. A number will be taken off the total clicks if the user misses a box. 
+If i user clicks on the wrong box the alert will appear to let them know that they will need to click on the next box to keep the game going. A number will be taken off the total clicks if the user misses a box.
 
 ![Alert Message](assets/images/readme-images/alert.png "Screenshot of the alert")
 
 ### Game Buttons
 
 There are 3 buttons within the game.
+
 - Start Button
 - Next Level
 - Reset
 
 #### Start Button
 
-The Start Game Button begins the game one level 1. This will take the user though the changing boxes for 10 seconds at a rate of 2 seconds between colour changes. The Start Game button also resets the total clicks o that the user can begin a new game to try to beat their previous score. 
+The Start Game Button begins the game one level 1. This will take the user though the changing boxes for 10 seconds at a rate of 2 seconds between colour changes. The Start Game button also resets the total clicks o that the user can begin a new game to try to beat their previous score.
 
 #### Next Level
 
-The Next Level button brings the user to level 2 where the boxes change at a much quicker rate of 700 milliseconds and the timer duration increased to 20 seconds for a longer game time. 
+The Next Level button brings the user to level 2 where the boxes change at a much quicker rate of 700 milliseconds and the timer duration increased to 20 seconds for a longer game time.
 The Next Level button also clears the total clicks so that the user can try to beat their score.
 
 #### Reset Button
@@ -221,7 +225,27 @@ The Reset button does not reset the total clicks as this is done within the Star
 
 ### Score Section
 
+The Score section has 3 features
 
+- Clicks
+- Missed Boxes
+- Total Clicks
+
+#### Clicks
+
+The clicks are counted every time a user clicks on the correct box.
+
+#### Missed Boxews
+
+Missed Boxes are counted here every time a user clicks on the wrong box and recieves the alert
+
+#### Total Clicks
+
+The total clicks are calculated by minusing the missed boxes from the clicks. The aim of the game is to get the most total clicks you can, and then try to beat your score as you get better at the game.
+The total clicks do not disappear once the game is over so that users can see how many they got in total during the game.
+The total clicks will go back to 0 once a new game is started by either pressing the Start Game button for the Next Level button.
+
+![Scores](assets/images/readme-images/scores.png "Screenshot of scores")
 
 ## The Footer
 
