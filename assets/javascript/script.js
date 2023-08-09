@@ -188,7 +188,7 @@ increaseTimerButton.addEventListener("click", function () {
 function increaseTimer() {
     clearInterval(colorChangeInterval);
     timer = 20;
-    gameSpeed = 500;
+    gameSpeed = 700;
     startGame();
     gameActive = true;
     countDown = setInterval(function () {
