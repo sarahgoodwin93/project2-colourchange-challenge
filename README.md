@@ -12,6 +12,7 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
 ![Responsive Image](assets/images/readme-images/am-i-responsive.png "am I responsive screenshot image")
 
 # Table of Contents
+
 - [ColourChange Challenge](#colourchange-challenge)
 - [Table of Contents](#table-of-contents)
 - [Key Project Goals](#key-project-goals)
@@ -122,7 +123,7 @@ Sans-Serif has been applied as a back-up in case of import failure.
 
 ### Navigation
 
-Each page has 2 navigation buttons to take you to the other pages, they are all places towards the bottom of the screen to allow continuity for the user expereince. 
+Each page has 2 navigation buttons to take you to the other pages, they are all places towards the bottom of the screen to allow continuity for the user expereince.
 
 If you are on the 'Homepage', you will see the buttons for 'How to Play' and 'Play Game'
 If you are on the 'How to Play' page, you will see the buttons for 'Homepage' and 'Play Game'
@@ -144,7 +145,11 @@ Because the logo and the game grid are of similar size it allows for continuity 
 
 ### Home
 
-![Homepage Image]( "Screenshot of homepage on mobile laptop and mobile screens")
+The homepage is a simple design offering a large logo image of the game grid, an enticing description about the game and two large navigation buttons for the instrctions and the game.
+
+A simple design was chosen so that users have a clear action path, either to read the game instrctuion or to so straight to the game play.
+
+![Homepage Image](assets/images/readme-images/home-page.png "Screenshot of homepage on mobile laptop and mobile screens")
 
 ### How to Play
 
