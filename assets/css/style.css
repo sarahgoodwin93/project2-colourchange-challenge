@@ -128,7 +128,6 @@ nav a {
     text-align: center;
     margin-top: 10px;
     color: #e7014c;
-    font-size: 20px;
 }
 
 /* How to Play Page */
@@ -221,7 +220,7 @@ li::before {
     text-align: center;
 }
 
-#numbers h2 {
+#numbers h3 {
     padding-right: 20px;
 }
 
@@ -289,7 +288,7 @@ li::before {
 
 @media screen and (max-width: 600px) {
     #home-text {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .box {
@@ -322,7 +321,7 @@ li::before {
         flex-direction: column;
     }
 
-    #numbers h2 {
+    #numbers h3 {
         padding-right: 0px;
     }
 

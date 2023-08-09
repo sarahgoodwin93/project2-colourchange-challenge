@@ -42,14 +42,16 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
       - [Missed Boxews](#missed-boxews)
       - [Total Clicks](#total-clicks)
   - [The Footer](#the-footer)
-- [Features Left to Implement](#features-left-to-implement)
 - [Testing](#testing)
   - [Manual Testing](#manual-testing)
-    - [Laptops](#laptops)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
-    - [Browsers](#browsers)
+      - [Laptops](#laptops)
+      - [Desktop](#desktop)
+      - [Mobile](#mobile)
+      - [Browsers](#browsers)
   - [Validator Testing](#validator-testing)
+    - [W3 - HTML validator](#w3---html-validator)
+    - [W3C - CSS Validator](#w3c---css-validator)
+    - [JS Hint - Javascript Validator](#js-hint---javascript-validator)
     - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
   - [Lighthouse scores](#lighthouse-scores)
   - [Mobile and iPad Testing Comments](#mobile-and-ipad-testing-comments)
@@ -59,6 +61,7 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
 - [Deployment](#deployment)
   - [Deploying on GitHub Pages](#deploying-on-github-pages)
 - [Technologies Used](#technologies-used)
+- [Future Features to Implement](#future-features-to-implement)
 - [Credits](#credits)
   - [Specific sources](#specific-sources)
 - [Content](#content)
@@ -261,21 +264,79 @@ It also has links to Sarah's Github and Linkedin profiles should you wish to con
 
 ![Footer screenshot](assets/images/readme-images/footer.png "Screenshot of Footer")
 
-# Features Left to Implement
-
 # Testing
 
 ## Manual Testing
 
-### Laptops
+Manual testing was carried out on every page and with every link.
 
-### Desktop
+The ColourChange Challenge site was tested on the following devices:
 
-### Mobile
+#### Laptops
 
-### Browsers
+- Macbook Air
+
+#### Desktop
+
+- iMac
+
+#### Mobile
+
+- Samsung 22 Ultra (Android)
+- iPhone SE (Apple)
+- iPhone 12 Mini (Apple)
+
+#### Browsers
+
+- Google Chrome
+- Safari
+- Firefox
 
 ## Validator Testing
+
+### W3 - HTML validator
+
+<details>
+<summary>HTML - Please see screenshots for each page</summary>
+<details>
+<summary>Homepage</summary>
+
+![HTML Validator Homepage](assets/readme-img/.png "w3 validator homepage image")
+
+</details>
+<details>
+<summary>How To Play Page</summary>
+
+![HTML Validator How to play page](assets/readme-img/.png "w3 validator how to play page image")
+
+</details>
+<details>
+
+<summary>Play Game Page</summary>
+
+![HTML Validator Play Game Page](assets/readme-img/.png "w3 validator play game image")
+
+</details>
+<details>
+
+### W3C - CSS Validator
+
+<details>
+<summary>CSS - Please see screenshot of CSS Jigsaw validator</summary>
+
+![CSS Validator](assets/readme-img/.png "Css valid image")
+
+</details>
+
+### JS Hint - Javascript Validator
+
+<details>
+<summary>Javascript - Please see screenshot of JS Hint validator</summary>
+
+![CSS Validator](assets/readme-img/.png "JS valid image")
+
+</details>
+
 
 ### Errors that were found in validator and fixed
 
@@ -341,6 +402,8 @@ The live link can be found here [Does It Match](https://sarahgoodwin93.github.io
 
 - [Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I responsive webpage")
   Am I Responsive was used in order to see responsive design and create screenshots of the final page on different devices.
+
+# Future Features to Implement
 
 # Credits
 
