@@ -31,6 +31,13 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
   - [Home](#home)
   - [How to Play](#how-to-play)
   - [Play Game](#play-game)
+    - [Timer](#timer)
+    - [Game Grid](#game-grid)
+    - [Game Buttons](#game-buttons)
+      - [Start Button](#start-button)
+      - [Next Level](#next-level)
+      - [Reset Button](#reset-button)
+    - [Score Section](#score-section)
   - [The Footer](#the-footer)
 - [Features Left to Implement](#features-left-to-implement)
 - [Testing](#testing)
@@ -156,9 +163,65 @@ A simple design was chosen so that users have a clear action path, either to rea
 The How to play page has the game instructions, as well as navigation buttons for the home and game pages.
 The theme of the boxes has been added to the page to keep design continuity, while added a different look to the logo and game grid. In the static box image you can see one of the boxes is a different shade of pink to the main {#e7014c} colour, which gives an insight into future levels of the game.
 
+The instructions outline the rules of the game, how to play and what to watch out for.
 
+![Rules Image](assets/images/readme-images/rules.png "Screenshot of the rules of the game")
+
+The game is a game of skill and speed which a user is trying to beat their own total clicks high score.
+It is responsive on both desktop and mobile.
+
+![Instructions Image](assets/images/readme-images/instructions.png "Screenshot of instructions on mobile laptop and mobile screens")
 
 ## Play Game
+
+The game grid is where the game is played, the user is playing against their own skills and a timer. They will see their scores increase in the score section.
+
+### Timer
+
+The timer currently has 2 settings, 10 seconds for level 1 and 20 seconds for level 2.
+It starts at 00:00 so that the user knows the game has not yet begun.
+
+![Timer](assets/images/readme-images/time.png "Screenshot of the timer")
+
+### Game Grid
+
+The boxes will begin to change colour once the user presses {Start Game} or {Next Level}. The boxes will change a different speeds depending on the level, and run for a different duration depending on the timer.
+The boxes run through the specified array of colours to keep in theme of the design colours.
+
+![Game Grid](assets/images/readme-images/game-grid.png "Screenshot of the game grid")
+
+If the user clicks on the correct box, the number of clicks will increase, as will the total clicks.
+
+If i user clicks on the wrong box the alert will appear to let them know that they will need to click on the next box to keep the game going. A number will be taken off the total clicks if the user misses a box. 
+
+![Alert Message](assets/images/readme-images/alert.png "Screenshot of the alert")
+
+### Game Buttons
+
+There are 3 buttons within the game.
+- Start Button
+- Next Level
+- Reset
+
+#### Start Button
+
+The Start Game Button begins the game one level 1. This will take the user though the changing boxes for 10 seconds at a rate of 2 seconds between colour changes. The Start Game button also resets the total clicks o that the user can begin a new game to try to beat their previous score. 
+
+#### Next Level
+
+The Next Level button brings the user to level 2 where the boxes change at a much quicker rate of 700 milliseconds and the timer duration increased to 20 seconds for a longer game time. 
+The Next Level button also clears the total clicks so that the user can try to beat their score.
+
+#### Reset Button
+
+The Reset button is there to be used during the game if the user wants to begin again halfway through the game play. It will take the grid back to pink squares and reset the timer to 00:00.
+The Reset button does not reset the total clicks as this is done within the Start Game Button and Next Level buttons.
+
+![Game Buttons](assets/images/readme-images/game-buttons.png "Screenshot of Game Buttons")
+
+### Score Section
+
+
 
 ## The Footer
 
