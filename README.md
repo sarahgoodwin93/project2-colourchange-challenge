@@ -26,7 +26,7 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
     - [Typography](#typography)
   - [Features](#features)
     - [Navigation](#navigation)
-    - [Hero Image](#hero-image)
+    - [Hero Image / Logo](#hero-image--logo)
     - [Home](#home)
     - [How to Play](#how-to-play)
     - [Play Game](#play-game)
@@ -122,11 +122,25 @@ Sans-Serif has been applied as a back-up in case of import failure.
 
 ### Navigation
 
-![Navigation Image]( "Screenshot of navigation bar")
+Each page has 2 navigation buttons to take you to the other pages, they are all places towards the bottom of the screen to allow continuity for the user expereince. 
 
-### Hero Image
+If you are on the 'Homepage', you will see the buttons for 'How to Play' and 'Play Game'
+If you are on the 'How to Play' page, you will see the buttons for 'Homepage' and 'Play Game'
+If you are on the 'Play Game' page, you will see the buttons for 'Homepage' and 'How to Play'
 
-![Hero Image]( "Screenshot of hero image")
+Therefore whichever page button is lacking, shows you which page you are on.
+
+![Navigation Image](assets/images/readme-images/nav-buttons.png "Screenshot of navigation bar")
+
+### Hero Image / Logo
+
+The logo of the ColourChange Challenge shows an example of the game while using the sites 2 main colours - {#e7014c}, {#ff9e1d}.
+
+It allows users to know straight away they will be doing a challenge with a grid and colours, and the bright colours draw users in and create an excitement to the page.
+
+Because the logo and the game grid are of similar size it allows for continuity in the user experience, almost like you are playing as soon as you enter the site!
+
+![Hero Image](assets/images/readme-images/logo.png "Screenshot of hero image")
 
 ### Home
 
