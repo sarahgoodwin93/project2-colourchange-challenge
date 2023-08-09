@@ -95,7 +95,6 @@ nav a {
     margin-left: 30px;
     padding: 5px 5px 5px 5px;
 }
-}
 
 /* Homepage */
 
@@ -115,6 +114,11 @@ nav a {
     background-size: contain;
     height: auto;
     width: 100%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
 }
 
 #home-text {
@@ -277,7 +281,6 @@ li::before {
 
 @media (max-width: 780px) {
     #logo-img {
-        width: 80%;
         height: auto;
     }
 }
@@ -306,5 +309,9 @@ li::before {
 
     #numbers h2 {
         padding-right: 0px;
+    }
+
+    #logo {
+        text-align: center;
     }
 }
