@@ -138,8 +138,8 @@ nav a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 60px;
     padding-left: 10px;
+    padding-right: 10px;
     color: #e7014c;
 }
 
@@ -210,7 +210,6 @@ li::before {
     justify-content: center;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 30px;
     color: #e7014c;
     flex-direction: column;
 }
@@ -283,11 +282,16 @@ li::before {
 
 @media (max-width: 780px) {
     #logo-img {
+        margin-top: 0%;
         height: auto;
     }
 }
 
 @media screen and (max-width: 600px) {
+    #home-text {
+        font-size: 15px;
+    }
+
     .box {
         height: 60px;
         width: 60px;
@@ -300,6 +304,15 @@ li::before {
         width: 60px;
         border-radius: 30px;
         font-size: 12px;
+    }
+
+    .how-to-play-list {
+        font-size: 15px;
+    }
+
+    .play-buttons {
+        flex-direction: column;
+        padding-bottom: 0px;
     }
 }
 
