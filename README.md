@@ -16,45 +16,45 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
 - [ColourChange Challenge](#colourchange-challenge)
 - [Table of Contents](#table-of-contents)
 - [Key Project Goals](#key-project-goals)
-    - [Target Audience](#target-audience)
-    - [User Stories](#user-stories)
-      - [First time users](#first-time-users)
-      - [Returning Users](#returning-users)
-      - [Reaction Times](#reaction-times)
-  - [Design](#design)
-    - [Colour Scheme](#colour-scheme)
-    - [Wire frames](#wire-frames)
-    - [Typography](#typography)
-  - [Features](#features)
-    - [Navigation](#navigation)
-    - [Hero Image / Logo](#hero-image--logo)
-    - [Home](#home)
-    - [How to Play](#how-to-play)
-    - [Play Game](#play-game)
-    - [The Footer](#the-footer)
-    - [Features Left to Implement](#features-left-to-implement)
-  - [Testing](#testing)
-    - [Manual Testing](#manual-testing)
-      - [Laptops](#laptops)
-      - [Desktop](#desktop)
-      - [Mobile](#mobile)
-      - [Browsers](#browsers)
-    - [Validator Testing](#validator-testing)
-      - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
-    - [Lighthouse scores](#lighthouse-scores)
-    - [Mobile and iPad Testing Comments](#mobile-and-ipad-testing-comments)
-    - [Nav Bar Testing Comments](#nav-bar-testing-comments)
-    - [Other Testing Comments](#other-testing-comments)
-    - [Unfixed Bugs](#unfixed-bugs)
-  - [Deployment](#deployment)
-    - [Deploying on GitHub Pages](#deploying-on-github-pages)
-  - [Technologies Used](#technologies-used)
-  - [Credits](#credits)
-    - [Specific sources](#specific-sources)
-    - [Content](#content)
-    - [Images](#images)
-    - [Education](#education)
-    - [Game Journey](#game-journey)
+  - [Target Audience](#target-audience)
+  - [User Stories](#user-stories)
+    - [First time users](#first-time-users)
+    - [Returning Users](#returning-users)
+    - [Reaction Times](#reaction-times)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Wire frames](#wire-frames)
+  - [Typography](#typography)
+- [Features](#features)
+  - [Navigation](#navigation)
+  - [Hero Image / Logo](#hero-image--logo)
+  - [Home](#home)
+  - [How to Play](#how-to-play)
+  - [Play Game](#play-game)
+  - [The Footer](#the-footer)
+- [Features Left to Implement](#features-left-to-implement)
+- [Testing](#testing)
+  - [Manual Testing](#manual-testing)
+    - [Laptops](#laptops)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+    - [Browsers](#browsers)
+  - [Validator Testing](#validator-testing)
+    - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
+  - [Lighthouse scores](#lighthouse-scores)
+  - [Mobile and iPad Testing Comments](#mobile-and-ipad-testing-comments)
+  - [Nav Bar Testing Comments](#nav-bar-testing-comments)
+  - [Other Testing Comments](#other-testing-comments)
+  - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+  - [Deploying on GitHub Pages](#deploying-on-github-pages)
+- [Technologies Used](#technologies-used)
+- [Credits](#credits)
+  - [Specific sources](#specific-sources)
+- [Content](#content)
+  - [Images](#images)
+- [Education](#education)
+- [Game Journey](#game-journey)
   - [Game idea 1](#game-idea-1)
   - [Game idea 2](#game-idea-2)
   - [Game idea 3](#game-idea-3)
@@ -65,7 +65,7 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
 - Provide a fun interactive game for users to test their visual reaction time and hand eye coordination
 - Provide easy to understand instructions so that users know how to play the game
 
-### Target Audience
+## Target Audience
 
 The target audience for this website is
 
@@ -73,29 +73,29 @@ The target audience for this website is
 - Returning users
 - People wanting to improve reaction time
 
-### User Stories
+## User Stories
 
-#### First time users
+### First time users
 
 1. As a first time user I want clear game instrcutions with easy game play.
 2. As a first time user I want to be able to navigate the site quickly and easily.
 3. As a first time user I want to be able to see my scores increase to proivde motivation in the game.
 
-#### Returning Users
+### Returning Users
 
 1. As a returning time user I want to be able to get better at the game and increase my scores.
 2. As a returning time user I want to be able to get in contact with the site creator in case I have questions
 3. As a returning time user I want have fun playing the game to improve my reaction times.
 
-#### Reaction Times
+### Reaction Times
 
 1. As someone who wishes to improve their reaction time I want to be able to clearly see the timer so I can try to get as many clicks as possible within the timeframe
 2. As someone who wishes to improve their reaction time I want to be able to clearly see my scores increase and know when I have missed a box.
 3. As someone who wishes to improve their reaction time I want to see if new levels have been added so I can try to continue to improve.
 
-## Design
+# Design
 
-### Colour Scheme
+## Colour Scheme
 
 The colour scheme was chosen to look like a retro game, bright bold and vibrant colours were chosen for the logo and buttons - {#e7014c}, {#ff9e1d}.
 ![Hex Colours](assets/images/readme-images/colour-hex.png "#e7014 and #ff9e1 colour hex codes")
@@ -107,21 +107,21 @@ Within the boxes the colours are also pastel to show a stark difference between 
 These colours were chosen from [Visme](https://visme.co/blog/pastel-colors/ "link to visme website")
 ![Pastel Colours](assets/images/readme-images/visme-colours.png "pastel colour hex codes")
 
-### Wire frames
+## Wire frames
 
 A wireframe was made to flesh out the design and strucutre of the site and visualise user expereince. Wireframe were created using [figma](https://www.figma.com/?fuid= "link to figma homepage")
 
 ![WireFrame](assets/images/readme-images/wireframe.png "figma wireframe image")
 
-### Typography
+## Typography
 
 The font [Tektur](https://fonts.google.com/specimen/Tektur "link to Tektur google font") was used throughout the side to give it a arcade game type feel. It's octagonal outlines and rectangular style fit within the retro design for the game.
 
 Sans-Serif has been applied as a back-up in case of import failure.
 
-## Features
+# Features
 
-### Navigation
+## Navigation
 
 Each page has 2 navigation buttons to take you to the other pages, they are all places towards the bottom of the screen to allow continuity for the user expereince.
 
@@ -133,7 +133,7 @@ Therefore whichever page button is lacking, shows you which page you are on.
 
 ![Navigation Image](assets/images/readme-images/nav-buttons.png "Screenshot of navigation bar")
 
-### Hero Image / Logo
+## Hero Image / Logo
 
 The logo of the ColourChange Challenge shows an example of the game while using the sites 2 main colours - {#e7014c}, {#ff9e1d}.
 
@@ -143,7 +143,7 @@ Because the logo and the game grid are of similar size it allows for continuity 
 
 ![Hero Image](assets/images/readme-images/logo.png "Screenshot of hero image")
 
-### Home
+## Home
 
 The homepage is a simple design offering a large logo image of the game grid, an enticing description about the game and two large navigation buttons for the instrctions and the game.
 
@@ -151,59 +151,59 @@ A simple design was chosen so that users have a clear action path, either to rea
 
 ![Homepage Image](assets/images/readme-images/home-page.png "Screenshot of homepage on mobile laptop and mobile screens")
 
-### How to Play
+## How to Play
 
-### Play Game
+## Play Game
 
-### The Footer
+## The Footer
 
 ![Footer screenshot]( "Screenshot of Footer")
 
-### Features Left to Implement
+# Features Left to Implement
 
-## Testing
+# Testing
 
-### Manual Testing
+## Manual Testing
 
-#### Laptops
+### Laptops
 
-#### Desktop
+### Desktop
 
-#### Mobile
+### Mobile
 
-#### Browsers
+### Browsers
 
-### Validator Testing
+## Validator Testing
 
-#### Errors that were found in validator and fixed
+### Errors that were found in validator and fixed
 
-### Lighthouse scores
+## Lighthouse scores
 
-### Mobile and iPad Testing Comments
-
-| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
-| -------- | ---------- | --------------- | ---------- | ------- |
-|          |            |                 |            |         |
-
-### Nav Bar Testing Comments
+## Mobile and iPad Testing Comments
 
 | **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
 | -------- | ---------- | --------------- | ---------- | ------- |
 |          |            |                 |            |         |
 
-### Other Testing Comments
+## Nav Bar Testing Comments
 
 | **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
 | -------- | ---------- | --------------- | ---------- | ------- |
 |          |            |                 |            |         |
 
-### Unfixed Bugs
+## Other Testing Comments
 
-## Deployment
+| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** | **FIX** |
+| -------- | ---------- | --------------- | ---------- | ------- |
+|          |            |                 |            |         |
+
+## Unfixed Bugs
+
+# Deployment
 
 This project was developed using [Codeanywhere](https://app.codeanywhere.com/ "Link to Codeanywhere login"), which was then committed and pushed to GitHub using the Codeanywehere terminals.
 
-### Deploying on GitHub Pages
+## Deploying on GitHub Pages
 
 To deploy this page to GitHub Pages from its Codeanywhere repository, the following steps were taken:
 
@@ -222,7 +222,7 @@ To deploy this page to GitHub Pages from its Codeanywhere repository, the follow
 
 The live link can be found here [Does It Match](https://sarahgoodwin93.github.io/does-it-match/ "Link to deployed Does It Match")
 
-## Technologies Used
+# Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML5 wikipedia")
 - [CSS3](https://en.wikipedia.org/wiki/CSS "Link to CSS3 wikipedia")
@@ -240,9 +240,9 @@ The live link can be found here [Does It Match](https://sarahgoodwin93.github.io
 - [Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I responsive webpage")
   Am I Responsive was used in order to see responsive design and create screenshots of the final page on different devices.
 
-## Credits
+# Credits
 
-### Specific sources
+## Specific sources
 
 - <https://www.w3schools.com/js/js_arrow_function.asp>
 
@@ -252,13 +252,13 @@ The live link can be found here [Does It Match](https://sarahgoodwin93.github.io
 
 - https://www.w3schools.com/howto/howto_js_countdown.asp
 
-### Content
+# Content
 
-### Images
+## Images
 
-### Education
+# Education
 
-### Game Journey
+# Game Journey
 
 ## Game idea 1
 
