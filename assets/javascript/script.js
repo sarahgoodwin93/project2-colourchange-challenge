@@ -138,10 +138,12 @@ function resetGame() {
     timer = 10;
     clicks = 0;
     missed = 0;
+    totalClicks = totalClicks;
     gameActive = false;
     document.getElementById("clicks").innerText = 0;
     document.getElementById("missed").innerText = 0;
     document.getElementById("timer").innerText = "00:00";
+    document.getElementById("total-clicks").innerText = totalClicks;
     let allBoxes = document.getElementsByClassName("box");
     for (let i = 0; i < allBoxes.length; i++) {
         allBoxes[i].style.backgroundColor = "#e7014c";
