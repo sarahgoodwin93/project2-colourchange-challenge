@@ -12,7 +12,6 @@ let gameActive = false;
 let levelOneSpeed = 2000;
 let gameSpeed = levelOneSpeed;
 
-
 /** COLOUR ARRAY
  * List of colours that the game can choose from to keep the site design with pastel colours
  */
@@ -176,4 +175,29 @@ function missingBoxes() {
 let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
 
+/** INCREASE TIMER
+ * Once the reset button is clicked, the resetGame function will be called.
+ */
 
+let increaseTimerButton = document.getElementById("increase-timer");
+increaseTimerButton.addEventListener("click", function () {
+    increaseTimer();
+});
+
+
+function increaseTimer() {
+    clearInterval(colorChangeInterval);
+    timer = 20;
+    gameSpeed = 500;
+    startGame();
+    gameActive = true;
+    countDown = setInterval(function () {
+        document.getElementById("timer").innerHTML = timer;
+        timer--;
+        if (timer < 0) {
+            clearInterval(countDown);
+            document.getElementById("timer").innerHTML = "Times up!";
+            resetGame();
+        }
+    }, 1000);
+}
