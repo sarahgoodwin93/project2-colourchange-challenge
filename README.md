@@ -363,11 +363,11 @@ The ColourChange Challenge site was tested on the following devices:
 
 ## Lighthouse scores
 
-![Lighthouse score home](assets/readme-images/lighthouse-home.png "Lighthouse score home image")
+![Lighthouse score home](assets/images/readme-images/lighthouse-home.png "Lighthouse score home image")
 
-![Lighthouse score how to play](assets/readme-images/lighthouse-how.png "Lighthouse score how to play image")
+![Lighthouse score how to play](assets/images/readme-images/lighthouse-how.png "Lighthouse score how to play image")
 
-![Lighthouse score play game](assets/readme-images/lighthouse-play.png "Lighthouse score play game image")
+![Lighthouse score play game](assets/images/readme-images/lighthouse-play.png "Lighthouse score play game image")
 
 ## Mobile and iPad Testing Comments
 
