@@ -448,11 +448,13 @@ The live link can be found here [ColourChange Challenge](https://sarahgoodwin93.
 - [Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I responsive webpage")
   Am I Responsive was used in order to see responsive design and create screenshots of the final page on different devices.
 
+[Back to Top](#colourchange-challenge)
+
 # Future Features to Implement
 
 In the future there will be more levels of varying difficult.
 
-A future level will involve the colours becoming more difficult to differentiate between the game grid and the changed colour.
+A future level will involve the colours becoming more difficult to differentiate between the game grid and the changed colour, such as shown on the static box image on the How to Play page.
 
 Other future features may include
 
