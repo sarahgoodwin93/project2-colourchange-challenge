@@ -122,6 +122,29 @@ A wireframe was made to flesh out the design and strucutre of the site and visua
 
 ![WireFrame](assets/images/readme-images/wireframe.png "figma wireframe image")
 
+To expand the wireframes please click here
+
+<details>
+<summary>Wireframe Home Page</summary>
+
+![Wireframe Homepage](assets/images/readme-images/wireframe-home.png "wireframe home image")
+
+</details>
+
+<details>
+<summary>Wireframe How to Play Page</summary>
+
+![Wireframe how-to-play](assets/images/readme-images/wireframe-rules.png "wireframe how-to-play image")
+
+</details>
+
+<details>
+<summary>Wireframe Play Game Page</summary>
+
+![Wireframe play game](assets/images/readme-images/wireframe-play.png "wireframe play game image")
+
+</details>
+
 ## Typography
 
 The font [Tektur](https://fonts.google.com/specimen/Tektur "link to Tektur google font") was used throughout the side to give it a arcade game type feel. It's octagonal outlines and rectangular style fit within the retro design for the game.
@@ -426,6 +449,7 @@ In the future there will be more levels of varying difficult.
 A future level will involve the colours becoming more difficult to differentiate between the game grid and the changed colour.
 
 Other future features may include
+
 - Ability for users to choose their game length time
 - Ability for users to pick their game speed
 - Ability for users to keep their high scores in the game through a login feature
@@ -443,7 +467,7 @@ Images and logos for the site were all created by Sarah Goodwin using Canva Pro
 
 # Education
 
-The following sites assisted in learning more about the code that was being written, to gain a better understanding of how to best write the code and to get inspiration for the game. 
+The following sites assisted in learning more about the code that was being written, to gain a better understanding of how to best write the code and to get inspiration for the game.
 
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow webpage")
   Stack overflow was used to answer questions as to why certain code may not be performing as expected
@@ -452,10 +476,9 @@ The following sites assisted in learning more about the code that was being writ
 
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools webpage")
   W3Schools was used to gain a better understanding of css styles and how to apply them
-  Specifcily these two pages were used when creating the timer 
+  Specifcily these two pages were used when creating the timer
   [JavaScript Timing Events](https://www.w3schools.com/js/js_timing.asp "link to JavaScript Timing Events w3schools")
   [JavaScript Countdown Timer](https://www.w3schools.com/howto/howto_js_countdown.asp "link to JavaScript Timing Events w3schools")
-  
 - [Love Maths](https://github.com/sarahgoodwin93/love-maths "link to Love Maths page")
   Love Maths was used as part of the education process and was referred back to to gain ideas for the game set up
 
@@ -472,8 +495,8 @@ The following sites assisted in learning more about the code that was being writ
 
 - The ['Memento'](https://andreeeasn.github.io/pp2-memento/ "link to memento game page") exmaple project was referred for game inspiration and for how to set out javascript syntax
 
-- The [Reaction Time Test Game](https://www.youtube.com/watch?v=8rXj6q0AAkk "link to youtube video for Reaction Time Test Game") youtube video was used for inspriation for a game that changes with user clicks. 
+- The [Reaction Time Test Game](https://www.youtube.com/watch?v=8rXj6q0AAkk "link to youtube video for Reaction Time Test Game") youtube video was used for inspriation for a game that changes with user clicks.
 
-- The Handling DOM Events lessons in the JavaScript & the DOM section of the course were particually helpful when creating the game and the functions needed to make the divs change colour. 
+- The Handling DOM Events lessons in the JavaScript & the DOM section of the course were particually helpful when creating the game and the functions needed to make the divs change colour.
 
 - Mentor, Lauren-Nicole, for all her help and support, the useful resources she provided and for being a friendly face throughout! Could not have done this project without her!!
