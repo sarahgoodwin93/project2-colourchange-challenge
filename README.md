@@ -478,9 +478,9 @@ Images and logos for the site were all created by Sarah Goodwin using Canva Pro
 The following sites assisted in learning more about the code that was being written, to gain a better understanding of how to best write the code and to get inspiration for the game.
 
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow webpage")
-  Stack overflow was used to answer questions as to why certain code may not be performing as expected
-  A questions was asked on stackover flow for get assistance for the game
-  [Stopping a function after a timer has stopped](https://stackoverflow.com/questions/76862262/stopping-a-function-after-a-timer-has-stopped "Link to questions asked on stack overflow")
+  Stack overflow was used to answer questions as to why certain code may not be performing as expected.
+  A questions was asked by Sarah Goodwin (username sg93) on stackover flow for get advice for the game.
+  [Stopping a function after a timer has stopped](https://stackoverflow.com/questions/76862262/stopping-a-function-after-a-timer-has-stopped "Link to questions asked on stack overflow"). Some users offered some suggestions, the (!gameActive) variable was added by Sarah to the game before this was suggested on slack overflow however it was good to get confirmation that this was a good fix.
 
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools webpage")
   W3Schools was used to gain a better understanding of css styles and how to apply them
