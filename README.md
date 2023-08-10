@@ -500,3 +500,5 @@ The following sites assisted in learning more about the code that was being writ
 - The Handling DOM Events lessons in the JavaScript & the DOM section of the course were particularly helpful when creating the game and the functions needed to make the divs change colour.
 
 - Mentor, Lauren-Nicole, for all her help and support, the useful resources she provided and for being a friendly face throughout! Could not have done this project without her!!
+
+[Back to Top](#colourchange-challenge)
