@@ -87,12 +87,12 @@ function startGame() {
     let randomBox = Math.floor(Math.random() * allBoxes.length);
     changedBox = allBoxes[randomBox].id;
     document.getElementById(changedBox).style.backgroundColor = randomColor();
-
     clearInterval(colorChangeInterval);
     colorChangeInterval = setInterval(function () {
         let randomBox = Math.floor(Math.random() * allBoxes.length);
         changedBox = allBoxes[randomBox].id;
         document.getElementById(changedBox).style.backgroundColor = randomColor();
+        changeBackground(boxId);
     }, gameSpeed);
     if (seconds <= 0) {
         resetGame();
