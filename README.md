@@ -509,4 +509,12 @@ The following sites assisted in learning more about the code that was being writ
 
 - Mentor, Lauren-Nicole, for all her help and support, the useful resources she provided and for being a friendly face throughout! Could not have done this project without her!!
 
+- Original Game Idea
+  The original game idea was to get the boxes to flip to an image and users had to match the 4 images that went together, for example if there were 16 images, and 4 of them were ocean animals and the rest were random images that did not go together, the user would need to click on the 4 ocean animals.
+  Once the game has begun being build, the colour change seemed more exciting and user friendly. 
+
+- Second Game Idea
+  During the course of the build, the idea to have the colours only slightly different from each other to make it a much harder game was attempted. However after speaking with test users, it was decided that should be implemented in future levels rather than at the start of the game. 
+  
+
 [Back to Top](#colourchange-challenge)
