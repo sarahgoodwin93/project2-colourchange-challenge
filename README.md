@@ -39,7 +39,7 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
       - [Reset Button](#reset-button)
     - [Score Section](#score-section)
       - [Clicks](#clicks)
-      - [Missed Boxews](#missed-boxews)
+      - [Missed Boxes](#missed-boxes)
       - [Total Clicks](#total-clicks)
   - [The Footer](#the-footer)
 - [Testing](#testing)
@@ -86,9 +86,9 @@ The target audience for this website is
 
 ### First time users
 
-1. As a first time user I want clear game instrcutions with easy game play.
+1. As a first time user I want clear game instructions with easy game play.
 2. As a first time user I want to be able to navigate the site quickly and easily.
-3. As a first time user I want to be able to see my scores increase to proivde motivation in the game.
+3. As a first time user I want to be able to see my scores increase to provide motivation in the game.
 
 ### Returning Users
 
@@ -118,7 +118,7 @@ These colours were chosen from [Visme](https://visme.co/blog/pastel-colors/ "lin
 
 ## Wire frames
 
-A wireframe was made to flesh out the design and strucutre of the site and visualise user expereince. Wireframe were created using [figma](https://www.figma.com/?fuid= "link to figma homepage")
+A wireframe was made to flesh out the design and structure of the site and visualise user experience. Wireframe were created using [figma](https://www.figma.com/?fuid= "link to figma homepage")
 
 ![WireFrame](assets/images/readme-images/wireframe.png "figma wireframe image")
 
@@ -155,7 +155,7 @@ Sans-Serif has been applied as a back-up in case of import failure.
 
 ## Navigation
 
-Each page has 2 navigation buttons to take you to the other pages, they are all places towards the bottom of the screen to allow continuity for the user expereince.
+Each page has 2 navigation buttons to take you to the other pages, they are all places towards the bottom of the screen to allow continuity for the user experience.
 
 If you are on the 'Homepage', you will see the buttons for 'How to Play' and 'Play Game'
 If you are on the 'How to Play' page, you will see the buttons for 'Homepage' and 'Play Game'
@@ -177,9 +177,9 @@ Because the logo and the game grid are of similar size it allows for continuity 
 
 ## Home
 
-The homepage is a simple design offering a large logo image of the game grid, an enticing description about the game and two large navigation buttons for the instrctions and the game.
+The homepage is a simple design offering a large logo image of the game grid, an enticing description about the game and two large navigation buttons for the instructions and the game.
 
-A simple design was chosen so that users have a clear action path, either to read the game instrctuion or to so straight to the game play.
+A simple design was chosen so that users have a clear action path, either to read the game instruction or to so straight to the game play.
 
 It is responsive on both desktop and mobile.
 
@@ -259,9 +259,9 @@ The Score section has 3 features
 
 The clicks are counted every time a user clicks on the correct box.
 
-#### Missed Boxews
+#### Missed Boxes
 
-Missed Boxes are counted here every time a user clicks on the wrong box and recieves the alert
+Missed Boxes are counted here every time a user clicks on the wrong box and receives the alert
 
 #### Total Clicks
 
@@ -277,7 +277,7 @@ The Game Grid is responsive on both desktop and mobile.
 
 ## The Footer
 
-The footer shows who made the game, Sarah Goodwin, that it is copywritted and that it is part of Project 2 for the Codi Institute.
+The footer shows who made the game, Sarah Goodwin, that it is copyrighted and that it is part of Project 2 for the Code Institute.
 
 It also has links to Sarah's Github and Linkedin profiles should you wish to contact her
 
@@ -432,7 +432,7 @@ The live link can be found here [ColourChange Challenge](https://sarahgoodwin93.
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript "link to Javascript wikipedia")
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts webpage")
 - [Codeanywhere](https://app.codeanywhere.com/ "Link to Codeanywhere webpage")
-  GitPod was used for writing code, adding, commiting and pushing to github
+  GitPod was used for writing code, adding, committing and pushing to github
 - [GitHub](https://github.com/ "Link to GitHub webpage")
   GitHub was used to store the code files, README files and asset files after pushing
 - [Figma](https://www.figma.com/?fuid= "link to figma homepage")
@@ -476,7 +476,7 @@ The following sites assisted in learning more about the code that was being writ
 
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools webpage")
   W3Schools was used to gain a better understanding of css styles and how to apply them
-  Specifcily these two pages were used when creating the timer
+  Specifically these two pages were used when creating the timer
   [JavaScript Timing Events](https://www.w3schools.com/js/js_timing.asp "link to JavaScript Timing Events w3schools")
   [JavaScript Countdown Timer](https://www.w3schools.com/howto/howto_js_countdown.asp "link to JavaScript Timing Events w3schools")
 - [Love Maths](https://github.com/sarahgoodwin93/love-maths "link to Love Maths page")
@@ -493,10 +493,10 @@ The following sites assisted in learning more about the code that was being writ
 
 ## Game Inspiration
 
-- The ['Memento'](https://andreeeasn.github.io/pp2-memento/ "link to memento game page") exmaple project was referred for game inspiration and for how to set out javascript syntax
+- The ['Memento'](https://andreeeasn.github.io/pp2-memento/ "link to memento game page") example project was referred for game inspiration and for how to set out javascript syntax
 
-- The [Reaction Time Test Game](https://www.youtube.com/watch?v=8rXj6q0AAkk "link to youtube video for Reaction Time Test Game") youtube video was used for inspriation for a game that changes with user clicks.
+- The [Reaction Time Test Game](https://www.youtube.com/watch?v=8rXj6q0AAkk "link to youtube video for Reaction Time Test Game") youtube video was used for inspiration for a game that changes with user clicks.
 
-- The Handling DOM Events lessons in the JavaScript & the DOM section of the course were particually helpful when creating the game and the functions needed to make the divs change colour.
+- The Handling DOM Events lessons in the JavaScript & the DOM section of the course were particularly helpful when creating the game and the functions needed to make the divs change colour.
 
 - Mentor, Lauren-Nicole, for all her help and support, the useful resources she provided and for being a friendly face throughout! Could not have done this project without her!!
