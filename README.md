@@ -151,6 +151,8 @@ The font [Tektur](https://fonts.google.com/specimen/Tektur "link to Tektur googl
 
 Sans-Serif has been applied as a back-up in case of import failure.
 
+[Back to Top](#colourchange-challenge)
+
 # Features
 
 ## Navigation
@@ -283,6 +285,8 @@ It also has links to Sarah's Github and Linkedin profiles should you wish to con
 
 ![Footer screenshot](assets/images/readme-images/footer.png "Screenshot of Footer")
 
+[Back to Top](#colourchange-challenge)
+
 # Testing
 
 ## Manual Testing
@@ -351,6 +355,8 @@ The ColourChange Challenge site was tested on the following devices:
 
 <details>
 <summary>Javascript - Please see screenshot of JS Hint validator</summary>
+
+1 warning, changeBackground unused variable - this function is where the clicks and alerts come from so function is being used as expected.
 
 ![CSS Validator](assets/images/readme-images/js-hint.png "JS valid image")
 
