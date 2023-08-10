@@ -356,7 +356,7 @@ The ColourChange Challenge site was tested on the following devices:
 <details>
 <summary>Javascript - Please see screenshot of JS Hint validator</summary>
 
-1 warning, changeBackground unused variable - this function is where the clicks and alerts come from so function is being used as expected.
+boxId undefined - being used in the changeBackground function to confirm if the box clicked is the correct box.
 
 ![CSS Validator](assets/images/readme-images/js-hint.png "JS valid image")
 
