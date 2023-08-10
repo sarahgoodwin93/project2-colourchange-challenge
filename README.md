@@ -63,14 +63,10 @@ The timer will get faster, the boxes will change quicker and the fun will get gr
 - [Technologies Used](#technologies-used)
 - [Future Features to Implement](#future-features-to-implement)
 - [Credits](#credits)
-  - [Specific sources](#specific-sources)
-- [Content](#content)
-  - [Images](#images)
+  - [Content](#content)
+    - [Images](#images)
 - [Education](#education)
-- [Game Journey](#game-journey)
-  - [Game idea 1](#game-idea-1)
-  - [Game idea 2](#game-idea-2)
-  - [Game idea 3](#game-idea-3)
+  - [Game Inspiration](#game-inspiration)
 
 # Key Project Goals
 
@@ -344,11 +340,11 @@ The ColourChange Challenge site was tested on the following devices:
 
 ## Lighthouse scores
 
-![Lighthouse score home](assets/readme-img/lighthouse-home.png "Lighthouse score home image")
+![Lighthouse score home](assets/readme-images/lighthouse-home.png "Lighthouse score home image")
 
-![Lighthouse score how to play](assets/readme-img/lighthouse-how.png "Lighthouse score how to play image")
+![Lighthouse score how to play](assets/readme-images/lighthouse-how.png "Lighthouse score how to play image")
 
-![Lighthouse score play game](assets/readme-img/lighthouse-play.png "Lighthouse score play game image")
+![Lighthouse score play game](assets/readme-images/lighthouse-play.png "Lighthouse score play game image")
 
 ## Mobile and iPad Testing Comments
 
@@ -417,6 +413,7 @@ The live link can be found here [ColourChange Challenge](https://sarahgoodwin93.
 - [GitHub](https://github.com/ "Link to GitHub webpage")
   GitHub was used to store the code files, README files and asset files after pushing
 - [Figma](https://www.figma.com/?fuid= "link to figma homepage")
+  Figma was used for the wireframes
 - [Canva](https://www.canva.com/en_gb/login/ "Link to Canva webpage")
   Canva Pro was used to create images for the site
 - [Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I responsive webpage")
@@ -424,28 +421,59 @@ The live link can be found here [ColourChange Challenge](https://sarahgoodwin93.
 
 # Future Features to Implement
 
+In the future there will be more levels of varying difficult.
+
+A future level will involve the colours becoming more difficult to differentiate between the game grid and the changed colour.
+
+Other future features may include
+- Ability for users to choose their game length time
+- Ability for users to pick their game speed
+- Ability for users to keep their high scores in the game through a login feature
+- Ability for users to play their friends and try to beat their scores
+
 # Credits
 
-## Specific sources
+## Content
 
-- <https://www.w3schools.com/js/js_arrow_function.asp>
+Wording for the site was all created by Sarah Goodwin
 
-- <https://www.youtube.com/watch?v=8rXj6q0AAkk>
+### Images
 
-- <https://www.w3schools.com/js/js_timing.asp>
-
-- https://www.w3schools.com/howto/howto_js_countdown.asp
-
-# Content
-
-## Images
+Images and logos for the site were all created by Sarah Goodwin using Canva Pro
 
 # Education
 
-# Game Journey
+The following sites assisted in learning more about the code that was being written, to gain a better understanding of how to best write the code and to get inspiration for the game. 
 
-## Game idea 1
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow webpage")
+  Stack overflow was used to answer questions as to why certain code may not be performing as expected
+  A questions was asked on stackover flow for get assistance for the game
+  [Stopping a function after a timer has stopped](https://stackoverflow.com/questions/76862262/stopping-a-function-after-a-timer-has-stopped "Link to questions asked on stack overflow")
 
-## Game idea 2
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools webpage")
+  W3Schools was used to gain a better understanding of css styles and how to apply them
+  Specifcily these two pages were used when creating the timer 
+  [JavaScript Timing Events](https://www.w3schools.com/js/js_timing.asp "link to JavaScript Timing Events w3schools")
+  [JavaScript Countdown Timer](https://www.w3schools.com/howto/howto_js_countdown.asp "link to JavaScript Timing Events w3schools")
+  
+- [Love Maths](https://github.com/sarahgoodwin93/love-maths "link to Love Maths page")
+  Love Maths was used as part of the education process and was referred back to to gain ideas for the game set up
 
-## Game idea 3
+- [ChatGPT](https://openai.com/blog/chatgpt "link to chatgpt page")
+  ChatGPT was used gain a better understanding of javascript functions
+
+- [CluelessBiker/mentoring](https://github.com/CluelessBiker/mentoring "link to CluesslessBiker repo")
+  CluelessBiker mentoring github page was used to check examples of projects, access links to resources such as validators and w3schools, Am I Responsive.
+
+- Comparative Programming Languages Essentials & JavaScript Essentials Code Insititue Modules
+  The modules notes that Sarah Goodwin took for the Comparative Programming & JavaScript Essentials sections were referred back to to write code
+
+## Game Inspiration
+
+- The ['Memento'](https://andreeeasn.github.io/pp2-memento/ "link to memento game page") exmaple project was referred for game inspiration and for how to set out javascript syntax
+
+- The [Reaction Time Test Game](https://www.youtube.com/watch?v=8rXj6q0AAkk "link to youtube video for Reaction Time Test Game") youtube video was used for inspriation for a game that changes with user clicks. 
+
+- The Handling DOM Events lessons in the JavaScript & the DOM section of the course were particually helpful when creating the game and the functions needed to make the divs change colour. 
+
+- Mentor, Lauren-Nicole, for all her help and support, the useful resources she provided and for being a friendly face throughout! Could not have done this project without her!!
