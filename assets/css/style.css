@@ -241,6 +241,25 @@ li::before {
     font-size: 25px;
 }
 
+/* Alert message */
+
+#message {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.message-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: #e7014c solid;
+    width: fit-content;
+}
+
 /* Footer */
 
 .social {

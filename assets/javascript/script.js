@@ -59,7 +59,7 @@ function displayMessage(message) {
     messageAlert.textContent = "Opps wrong box";
     messageAlert.style.display = "block";
 
-    setTimeout(function(){
+    setTimeout(function() {
         messageAlert.style.display = 'none';
     }, 1000);
 
