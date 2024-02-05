@@ -251,15 +251,6 @@ li::before {
     font-size: 18px;
 }
 
-.message-box {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    border: #e7014c solid;
-    width: fit-content;
-}
-
 /* Footer */
 
 .social {
