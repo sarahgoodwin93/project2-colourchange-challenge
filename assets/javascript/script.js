@@ -27,6 +27,7 @@ let colors = ["#ffb5e8", "#d5aaff", "#6eb5ff", "#faf99d", "#bffcc6",
  * If the game is active and the timer is not at 0, the boxes will begin to change colour.
  * If the correct box is clicked, the increaseClicks function is called.
  * If user clicks on the wrong box the below message will appear and the missingBoxes function is called.
+ * A message will display to the user to let them know they missed the box.
  */
 function changeBackground(boxId) {
     if (!gameActive) {
@@ -47,10 +48,21 @@ function changeBackground(boxId) {
             }
         } else {
             clearInterval(colorChangeInterval);
-            alert('You missed this box! Try the next one to keep playing');
+            displayMessage('You missed this box! Try the next one to keep playing');
             missingBoxes();
         }
     }
+}
+
+function displayMessage(message) {
+    let messageAlert = document.getElementById('message');
+    messageAlert.textContent = "Opps wrong box";
+    messageAlert.style.display = "block";
+
+    setTimeout(function(){
+        messageAlert.style.display = 'none';
+    }, 1000);
+
 }
 
 /** STOP BOXES
