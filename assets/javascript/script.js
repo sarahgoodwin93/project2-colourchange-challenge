@@ -11,6 +11,7 @@ let timer = 10;
 let gameActive = false;
 let levelOneSpeed = 2000;
 let gameSpeed = levelOneSpeed;
+let boxId = null;
 
 /** COLOUR ARRAY
  * List of colours that the game can choose from to keep the site design with pastel colours
@@ -185,36 +186,36 @@ function missingBoxes() {
     document.getElementById("missed").innerText = newMissedBox;
 }
 
-/** NEXT LEVEL FUNCTION
- * This function increased the timer from 10 seconds to 20 seconds, and also increases the gameSpeed to 700 milliseconds. 
- * First the clears the colourChangeInterval, then sets the new timer and gameSpeed.
- * It then calls the startGame function if the game is active.
- * Next it initiates the countDown timer which is now set to 20.
- * If the timer reaches 0, the timer stops and the Times up message should show quickly before the game is reset.
- * The timer goes down in 1 second increments from 20 seconds.
- */
-function increaseTimer() {
-    clearInterval(colorChangeInterval);
-    timer = 20;
-    gameSpeed = 700;
-    startGame();
-    gameActive = true;
-    countDown = setInterval(function () {
-        document.getElementById("timer").innerHTML = timer;
-        timer--;
-        if (timer < 0) {
-            clearInterval(countDown);
-            document.getElementById("timer").innerHTML = "Times up!";
-            resetGame();
-        }
-    }, 1000);
-}
+// /** NEXT LEVEL FUNCTION
+//  * This function increased the timer from 10 seconds to 20 seconds, and also increases the gameSpeed to 700 milliseconds. 
+//  * First the clears the colourChangeInterval, then sets the new timer and gameSpeed.
+//  * It then calls the startGame function if the game is active.
+//  * Next it initiates the countDown timer which is now set to 20.
+//  * If the timer reaches 0, the timer stops and the Times up message should show quickly before the game is reset.
+//  * The timer goes down in 1 second increments from 20 seconds.
+//  */
+// function increaseTimer() {
+//     clearInterval(colorChangeInterval);
+//     timer = 20;
+//     gameSpeed = 700;
+//     startGame();
+//     gameActive = true;
+//     countDown = setInterval(function () {
+//         document.getElementById("timer").innerHTML = timer;
+//         timer--;
+//         if (timer < 0) {
+//             clearInterval(countDown);
+//             document.getElementById("timer").innerHTML = "Times up!";
+//             resetGame();
+//         }
+//     }, 1000);
+// }
 
-/** NEXT LEVEL BUTTON
- * Once the reset button is clicked, the resetGame function will be called.
- */
+// /** NEXT LEVEL BUTTON
+//  * Once the reset button is clicked, the resetGame function will be called.
+//  */
 
-let increaseTimerButton = document.getElementById("increase-timer");
-increaseTimerButton.addEventListener("click", function () {
-    increaseTimer();
-});
+// let increaseTimerButton = document.getElementById("increase-timer");
+// increaseTimerButton.addEventListener("click", function () {
+//     increaseTimer();
+// });
