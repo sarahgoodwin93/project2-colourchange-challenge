@@ -12,6 +12,7 @@ let gameActive = false;
 let levelOneSpeed = 2000;
 let gameSpeed = levelOneSpeed;
 let boxId = null;
+let correctClick = false;
 
 /** COLOUR ARRAY
  * List of colours that the game can choose from to keep the site design with pastel colours
@@ -41,6 +42,7 @@ function changeBackground(boxId) {
         if (boxId === changedBox) {
             clearInterval(colorChangeInterval);
             increaseClicks();
+            correctClick = true;
             if (seconds > 0) {
                 startGame();
             } else {
@@ -48,7 +50,7 @@ function changeBackground(boxId) {
             }
         } else {
             clearInterval(colorChangeInterval);
-            displayMessage('You missed this box! Try the next one to keep playing');
+            displayMessage('Opps wrong box! Try the next one to keep playing');
             missingBoxes();
         }
     }
@@ -56,7 +58,7 @@ function changeBackground(boxId) {
 
 function displayMessage(message) {
     let messageAlert = document.getElementById('message');
-    messageAlert.textContent = "Opps wrong box";
+    messageAlert.textContent = "Opps wrong box! Try again to keep playing";
     messageAlert.style.display = "block";
 
     setTimeout(function() {
@@ -102,10 +104,11 @@ function startGame() {
     document.getElementById(changedBox).style.backgroundColor = randomColor();
     clearInterval(colorChangeInterval);
     colorChangeInterval = setInterval(function () {
-        let randomBox = Math.floor(Math.random() * allBoxes.length);
-        changedBox = allBoxes[randomBox].id;
-        document.getElementById(changedBox).style.backgroundColor = randomColor();
-        changeBackground(boxId);
+        if (!correctClick) {
+            let randomBox = Math.floor(Math.random() * allBoxes.length);
+            changedBox = allBoxes[randomBox].id;
+            document.getElementById(changedBox).style.backgroundColor = randomColor();
+        }
     }, gameSpeed);
     if (seconds <= 0) {
         resetGame();
@@ -156,6 +159,7 @@ function resetGame() {
     missed = 0;
     totalClicks = 0;
     gameActive = false;
+    correctClick = false;
     document.getElementById("clicks").innerText = 0;
     document.getElementById("missed").innerText = 0;
     document.getElementById("timer").innerText = "00:00";
