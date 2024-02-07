@@ -11,7 +11,6 @@ let timer = 10;
 let gameActive = false;
 let levelOneSpeed = 2000;
 let gameSpeed = levelOneSpeed;
-let boxId = null;
 let correctClick = false;
 let intervalPaused = false;
 
@@ -58,25 +57,10 @@ function changeBackground(boxId) {
 }
 
 
-/** Pause Interval
+/** Display Message
  * Pauses the interval responsible for changing the colors of the boxes.
  * This sets the `intervalPaused` to true, indicating that the interval should be paused.
  */
-function pauseInterval() {
-    intervalPaused = true;
-}
-
-
-/** Resume Interval
- * Resumes the interval responsible for changing the colors of the boxes.
- * This sets the `intervalPaused` to false, and calls the `startGame` function to resume the interval
- */
-function resumeInterval() {
-    intervalPaused = false;
-    startGame();
-}
-
-
 function displayMessage(message) {
     let messageAlert = document.getElementById('message');
     messageAlert.textContent = "Opps wrong box! Try again to keep playing";
@@ -87,6 +71,16 @@ function displayMessage(message) {
     }, 1000);
 
 }
+
+
+/** Pause Interval
+ * Pauses the interval responsible for changing the colors of the boxes.
+ * This sets the `intervalPaused` to true, indicating that the interval should be paused.
+ */
+function pauseInterval() {
+    intervalPaused = true;
+}
+
 
 /** STOP BOXES
  * This function clears the colourChangeInterval so that the boxes stop changing colour.
@@ -182,6 +176,7 @@ function resetGame() {
     totalClicks = 0;
     gameActive = false;
     correctClick = false;
+    changeBackground();
     document.getElementById("clicks").innerText = 0;
     document.getElementById("missed").innerText = 0;
     document.getElementById("timer").innerText = "00:00";
