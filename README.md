@@ -23,7 +23,7 @@ If a user misses a box, a message is displayed and the total number of clicks wi
     - [Reaction Times](#reaction-times)
 - [Design](#design)
   - [Colour Scheme](#colour-scheme)
-  - [Wire frames](#wire-frames)
+  - [Mock ups](#mock-ups)
   - [Typography](#typography)
 - [Features](#features)
   - [Navigation](#navigation)
@@ -35,7 +35,6 @@ If a user misses a box, a message is displayed and the total number of clicks wi
     - [Game Grid](#game-grid)
     - [Game Buttons](#game-buttons)
       - [Start Button](#start-button)
-      - [Next Level](#next-level)
       - [Reset Button](#reset-button)
     - [Score Section](#score-section)
       - [Clicks](#clicks)
@@ -115,7 +114,7 @@ Within the boxes the colours are also pastel to show a stark difference between 
 These colours were chosen from [Visme](https://visme.co/blog/pastel-colors/ "link to visme website")
 ![Pastel Colours](assets/images/readme-images/visme-colours.png "pastel colour hex codes")
 
-## Wire frames & Mock Ups
+## Mock Ups
 
 A mock up was made to flesh out the design and structure of the site and visualise user experience before the game was started. Mock up was created using [figma](https://www.figma.com/?fuid= "link to figma homepage")
 
@@ -124,21 +123,21 @@ A mock up was made to flesh out the design and structure of the site and visuali
 To expand the mock ups please click here
 
 <details>
-<summary>Wireframe Home Page</summary>
+<summary>Mock Up Home Page</summary>
 
 ![MockUp Homepage](assets/images/readme-images/wireframe-home.png "MockUp home image")
 
 </details>
 
 <details>
-<summary>Wireframe How to Play Page</summary>
+<summary>Mock Up How to Play Page</summary>
 
 ![MockUp how-to-play](assets/images/readme-images/wireframe-rules.png "MockUp how-to-play image")
 
 </details>
 
 <details>
-<summary>Wireframe Play Game Page</summary>
+<summary>Mock Up Play Game Page</summary>
 
 ![MockUp play game](assets/images/readme-images/wireframe-play.png "MockUp play game image")
 
@@ -203,11 +202,10 @@ The instructions outline the rules of the game, how to play and what to watch ou
 The game is a game of skill and speed which a user is trying to beat their own total clicks high score.
 It is responsive on both desktop and mobile.
 
-![Instructions Image](assets/images/readme-images/instructions.png "Screenshot of instructions on mobile laptop and mobile screens")
-
 ## Play Game
 
-The game grid is where the game is played, the user is playing against their own skills and a timer. They will see their scores increase in the score section.
+The game grid is where the game is played, the user is playing against their own skills and a timer. 
+They will see their scores increase in the score section.
 
 ### Timer
 
@@ -271,8 +269,6 @@ The total clicks will go back to 0 once the game is ended so a new game can begi
 
 The Game Grid is responsive on both desktop and mobile.
 
-![Play Game Image](assets/images/readme-images/game.png "Screenshot of homepage on mobile laptop and mobile screens")
-
 ## The Footer
 
 The footer shows who made the game, Sarah Goodwin, that it is copyrighted and that it is part of Project 2 for the Code Institute.
@@ -315,6 +311,8 @@ The ColourChange Challenge site was tested on the following devices:
 
 ### W3 - HTML validator
 
+All HTML code has been run through the [W3C HTML Validator](https://validator.w3.org/).
+
 <details>
 <summary>HTML - Please see screenshots for each page</summary>
 <details>
@@ -340,6 +338,8 @@ The ColourChange Challenge site was tested on the following devices:
 
 ### W3C - CSS Validator
 
+All custom CSS has been run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "jigsaw w3 page")
+
 <details>
 <summary>CSS - Please see screenshot of CSS Jigsaw validator</summary>
 
@@ -348,6 +348,8 @@ The ColourChange Challenge site was tested on the following devices:
 </details>
 
 ### JS Hint - Javascript Validator
+
+All Javascript has been run through the js hint linter [JS Hint](https://jshint.com/ "js hint page")
 
 <details>
 <summary>Javascript - Please see screenshot of JS Hint validator</summary>
