@@ -13,6 +13,7 @@ let levelOneSpeed = 2000;
 let gameSpeed = levelOneSpeed;
 let boxId = null;
 let correctClick = false;
+let intervalPaused = false;
 
 /** COLOUR ARRAY
  * List of colours that the game can choose from to keep the site design with pastel colours
@@ -55,6 +56,26 @@ function changeBackground(boxId) {
         }
     }
 }
+
+
+/** Pause Interval
+ * Pauses the interval responsible for changing the colors of the boxes.
+ * This sets the `intervalPaused` to true, indicating that the interval should be paused.
+ */
+function pauseInterval() {
+    intervalPaused = true;
+}
+
+
+/** Resume Interval
+ * Resumes the interval responsible for changing the colors of the boxes.
+ * This sets the `intervalPaused` to false, and calls the `startGame` function to resume the interval
+ */
+function resumeInterval() {
+    intervalPaused = false;
+    startGame();
+}
+
 
 function displayMessage(message) {
     let messageAlert = document.getElementById('message');
@@ -104,7 +125,7 @@ function startGame() {
     document.getElementById(changedBox).style.backgroundColor = randomColor();
     clearInterval(colorChangeInterval);
     colorChangeInterval = setInterval(function () {
-        if (!correctClick) {
+        if (!correctClick && !intervalPaused) {
             let randomBox = Math.floor(Math.random() * allBoxes.length);
             changedBox = allBoxes[randomBox].id;
             document.getElementById(changedBox).style.backgroundColor = randomColor();
@@ -129,6 +150,7 @@ let startButton = document.getElementById("start-game");
 startButton.addEventListener("click", function () {
     clicks = 0;
     document.getElementById("clicks").innerText = 0;
+    pauseInterval();
     startGame();
     gameActive = true;
     countDown = setInterval(function () {
