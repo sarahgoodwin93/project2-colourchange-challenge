@@ -115,34 +115,39 @@ Within the boxes the colours are also pastel to show a stark difference between 
 These colours were chosen from [Visme](https://visme.co/blog/pastel-colors/ "link to visme website")
 ![Pastel Colours](assets/images/readme-images/visme-colours.png "pastel colour hex codes")
 
-## Wire frames
+## Wire frames & Mock Ups
 
-A wireframe was made to flesh out the design and structure of the site and visualise user experience. Wireframe were created using [figma](https://www.figma.com/?fuid= "link to figma homepage")
+A mock up was made to flesh out the design and structure of the site and visualise user experience before the game was started. Mock up was created using [figma](https://www.figma.com/?fuid= "link to figma homepage")
 
-![WireFrame](assets/images/readme-images/wireframe.png "figma wireframe image")
+![MockUp](assets/images/readme-images/wireframe.png "figma MockUp image")
 
-To expand the wireframes please click here
+To expand the mock ups please click here
 
 <details>
 <summary>Wireframe Home Page</summary>
 
-![Wireframe Homepage](assets/images/readme-images/wireframe-home.png "wireframe home image")
+![MockUp Homepage](assets/images/readme-images/wireframe-home.png "MockUp home image")
 
 </details>
 
 <details>
 <summary>Wireframe How to Play Page</summary>
 
-![Wireframe how-to-play](assets/images/readme-images/wireframe-rules.png "wireframe how-to-play image")
+![MockUp how-to-play](assets/images/readme-images/wireframe-rules.png "MockUp how-to-play image")
 
 </details>
 
 <details>
 <summary>Wireframe Play Game Page</summary>
 
-![Wireframe play game](assets/images/readme-images/wireframe-play.png "wireframe play game image")
+![MockUp play game](assets/images/readme-images/wireframe-play.png "MockUp play game image")
 
 </details>
+
+Once the game was begun, better buttons were designed to better suit the overall feel of the retro theme. 
+The instructions were condensded into a paragraph rather than a list.
+A timer was added to the game play page and text was added throughout the side for better clairty.   
+
 
 ## Typography
 
@@ -189,7 +194,7 @@ It is responsive on both desktop and mobile.
 ## How to Play
 
 The How to play page has the game instructions, as well as navigation buttons for the home and game pages.
-The theme of the boxes has been added to the page to keep design continuity, while added a different look to the logo and game grid. In the static box image you can see one of the boxes is a different shade of pink to the main {#e7014c} colour, which gives an insight into future levels of the game.
+The theme of the boxes has been added to the page to keep design continuity, while added a different look to the logo and game grid. In the static box image you can see one of the boxes is a different shade of pink to the main {#e7014c} colour, which gives an insight into the game.
 
 The instructions outline the rules of the game, how to play and what to watch out for.
 
@@ -206,45 +211,38 @@ The game grid is where the game is played, the user is playing against their own
 
 ### Timer
 
-The timer currently has 2 settings, 10 seconds for level 1 and 20 seconds for level 2.
 It starts at 00:00 so that the user knows the game has not yet begun.
+Once the game is started, the timer will change to 10 and countdown until 0.
 
 ![Timer](assets/images/readme-images/time.png "Screenshot of the timer")
 
 ### Game Grid
 
-The boxes will begin to change colour once the user presses {Start Game} or {Next Level}. The boxes will change a different speeds depending on the level, and run for a different duration depending on the timer.
+The boxes will begin to change colour once the user presses {Start Game}. The boxes will change color once the user has clicked on the correct box.
 The boxes run through the specified array of colours to keep in theme of the design colours.
 
 ![Game Grid](assets/images/readme-images/game-grid.png "Screenshot of the game grid")
 
 If the user clicks on the correct box, the number of clicks will increase, as will the total clicks.
 
-If i user clicks on the wrong box the alert will appear to let them know that they will need to click on the next box to keep the game going. A number will be taken off the total clicks if the user misses a box.
+If the user clicks on the wrong box, a message will appear to let them know that they will need to try again to keep the game going. A number will be taken off the total clicks if the user misses a box and the missed boxes number will increase.
 
 ![Alert Message](assets/images/readme-images/alert.png "Screenshot of the alert")
 
 ### Game Buttons
 
-There are 3 buttons within the game.
+There are 2 buttons within the game.
 
 - Start Button
-- Next Level
 - Reset
 
 #### Start Button
 
-The Start Game Button begins the game one level 1. This will take the user though the changing boxes for 10 seconds at a rate of 2 seconds between colour changes. The Start Game button also resets the total clicks o that the user can begin a new game to try to beat their previous score.
-
-#### Next Level
-
-The Next Level button brings the user to level 2 where the boxes change at a much quicker rate of 700 milliseconds and the timer duration increased to 20 seconds for a longer game time.
-The Next Level button also clears the total clicks so that the user can try to beat their score.
+The Start Game Button begins the game. It will take the user though the changing boxes for 10 seconds at a rate of 2 seconds between colour changes. The Start Game button also resets the total clicks so that the user can begin a new game to try to beat their previous score.
 
 #### Reset Button
 
 The Reset button is there to be used during the game if the user wants to begin again halfway through the game play. It will take the grid back to pink squares and reset the timer to 00:00.
-The Reset button does not reset the total clicks as this is done within the Start Game Button and Next Level buttons.
 
 ![Game Buttons](assets/images/readme-images/game-buttons.png "Screenshot of Game Buttons")
 
@@ -262,13 +260,12 @@ The clicks are counted every time a user clicks on the correct box.
 
 #### Missed Boxes
 
-Missed Boxes are counted here every time a user clicks on the wrong box and receives the alert
+Missed Boxes are counted here every time a user clicks on the wrong box and receives the message to say they missed the box.
 
 #### Total Clicks
 
 The total clicks are calculated by minusing the missed boxes from the clicks. The aim of the game is to get the most total clicks you can, and then try to beat your score as you get better at the game.
-The total clicks do not disappear once the game is over so that users can see how many they got in total during the game.
-The total clicks will go back to 0 once a new game is started by either pressing the Start Game button for the Next Level button.
+The total clicks will go back to 0 once the game is ended so a new game can begin. 
 
 ![Scores](assets/images/readme-images/scores.png "Screenshot of scores")
 
@@ -354,8 +351,6 @@ The ColourChange Challenge site was tested on the following devices:
 
 <details>
 <summary>Javascript - Please see screenshot of JS Hint validator</summary>
-
-boxId undefined - being used in the changeBackground function to confirm if the box clicked is the correct box.
 
 ![CSS Validator](assets/images/readme-images/js-hint.png "JS valid image")
 
@@ -453,7 +448,7 @@ The live link can be found here [ColourChange Challenge](https://sarahgoodwin93.
 
 In the future there will be more levels of varying difficult.
 
-A future level will involve the colours becoming more difficult to differentiate between the game grid and the changed colour, such as shown on the static box image on the How to Play page.
+A future level will involve the colours becoming more difficult to differentiate between the game grid and the changed colour, the game will have different speeds as well. 
 
 Other future features may include
 
