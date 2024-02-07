@@ -10,7 +10,7 @@
 body {
     font-family: 'Tektur', sans-serif;
     font-weight: 400;
-    color: #e7014c;
+    color: #bf0543;
     min-height: 100vh;
     max-width: 100vw;
     overflow-x: hidden;
@@ -28,7 +28,7 @@ header a {
 
 nav a {
     text-decoration: none;
-    color: #e7014c;
+    color: #bf0543;
 }
 
 /* Navigation buttons */
@@ -45,7 +45,7 @@ nav a {
 
 .nav-buttons a {
     text-decoration: none;
-    color: #e7014c;
+    color: #bf0543;
 }
 
 #how-to-play-button {
@@ -88,7 +88,7 @@ nav a {
 }
 
 .button {
-    color: #e7014c;
+    color: #bf0543;
     font-weight: bold;
     font-size: 20px;
     margin-right: 30px;
@@ -104,7 +104,7 @@ nav a {
     text-align: center;
     padding-bottom: 512px;
     margin-top: 30px;
-    color: #e7014c;
+    color: #bf0543;
 }
 
 #logo-img {
@@ -127,7 +127,7 @@ nav a {
     justify-content: center;
     text-align: center;
     margin-top: 10px;
-    color: #e7014c;
+    color: #bf0543;
 }
 
 /* How to Play Page */
@@ -139,7 +139,7 @@ nav a {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    color: #e7014c;
+    color: #bf0543;
 }
 
 .how-to-play-list {
@@ -209,7 +209,7 @@ li::before {
     justify-content: center;
     text-align: center;
     padding-top: 10px;
-    color: #e7014c;
+    color: #bf0543;
     flex-direction: column;
 }
 
@@ -236,7 +236,7 @@ li::before {
     justify-content: center;
     text-align: center;
     padding-top: 10px;
-    color: #e7014c;
+    color: #bf0543;
     flex-direction: column;
     font-size: 25px;
 }

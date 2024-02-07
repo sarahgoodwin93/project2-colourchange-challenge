@@ -5,9 +5,9 @@ Users clicks will be counted, the faster they click, the more they will score!
 
 The site will target people wanting a fun easy game to test their reaction time and eye site. Users can come back to the site to try to beat their score.
 
-In the game the boxes will change colour at various speeds depending on the level, users must click on the correct box for it to be counted as a click and for their score to increase. Aim of the game is try to get the biggest number of clicks.
+In the game the boxes will change colour, users must click on the correct box for it to be counted as a click and for their score to increase. Aim of the game is try to get the biggest number of total clicks.
 
-The timer will get faster, the boxes will change quicker and the fun will get greater!
+If a user misses a box, a message is displayed and the total number of clicks will decrease. 
 
 ![Responsive Image](assets/images/readme-images/am-i-responsive.png "am I responsive screenshot image")
 
@@ -98,9 +98,8 @@ The target audience for this website is
 
 ### Reaction Times
 
-1. As someone who wishes to improve their reaction time I want to be able to clearly see the timer so I can try to get as many clicks as possible within the timeframe
+1. As someone who wishes to improve their reaction time I want to be able to clearly see the timer so I can try to get as many clicks as possible within the timeframe.
 2. As someone who wishes to improve their reaction time I want to be able to clearly see my scores increase and know when I have missed a box.
-3. As someone who wishes to improve their reaction time I want to see if new levels have been added so I can try to continue to improve.
 
 # Design
 

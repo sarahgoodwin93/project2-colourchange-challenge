@@ -50,7 +50,7 @@ function changeBackground(boxId) {
             }
         } else {
             clearInterval(colorChangeInterval);
-            displayMessage('Opps wrong box! Try the next one to keep playing');
+            displayMessage();
             missingBoxes();
         }
     }
@@ -130,6 +130,7 @@ function startGame() {
         return;
     }
 }
+
 
 /** START GAME WITH CLICK
  * This function begins the game once the user clicks on the start game button.
