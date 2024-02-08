@@ -211,6 +211,7 @@ They will see their scores increase in the score section.
 
 It starts at 00:00 so that the user knows the game has not yet begun.
 Once the game is started, the timer will change to 10 and countdown until 0.
+Once the game is done the timer will change to Times Up.
 
 ![Timer](assets/images/readme-images/time.png "Screenshot of the timer")
 
@@ -236,11 +237,13 @@ There are 2 buttons within the game.
 
 #### Start Button
 
-The Start Game Button begins the game. It will take the user though the changing boxes for 10 seconds at a rate of 2 seconds between colour changes. The Start Game button also resets the total clicks so that the user can begin a new game to try to beat their previous score.
+The Start Game Button begins the game. It will take the user though the changing boxes for 10 seconds. 
+Once the game is done the user can see their scores and then either press reset or start to begin a new game.
 
 #### Reset Button
 
-The Reset button is there to be used during the game if the user wants to begin again halfway through the game play. It will take the grid back to pink squares and reset the timer to 00:00.
+The Reset button is there to be used during the game if the user wants to begin again halfway through the game play. 
+It will take the grid back to pink squares and reset the timer to 00:00.
 
 ![Game Buttons](assets/images/readme-images/game-buttons.png "Screenshot of Game Buttons")
 

@@ -139,6 +139,7 @@ function startGame() {
 
 let startButton = document.getElementById("start-game");
 startButton.addEventListener("click", function () {
+    resetGame();
     clicks = 0;
     document.getElementById("clicks").innerText = 0;
     pauseInterval();
