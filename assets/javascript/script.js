@@ -125,10 +125,6 @@ function startGame() {
             document.getElementById(changedBox).style.backgroundColor = randomColor();
         }
     }, gameSpeed);
-    if (seconds <= 0) {
-        resetGame();
-        return;
-    }
 }
 
 
@@ -154,7 +150,6 @@ startButton.addEventListener("click", function () {
         if (seconds < 0) {
             clearInterval(countDown);
             document.getElementById("timer").innerHTML = "Times up!";
-            resetGame();
         }
     }, 1000);
 });
